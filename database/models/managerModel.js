@@ -1,3 +1,4 @@
+const { string } = require("joi");
 const mongoose = require("mongoose");
 const ManagerSchema = new mongoose.Schema(
   {
@@ -23,7 +24,6 @@ const ManagerSchema = new mongoose.Schema(
       type: String,
      // required: true,
     }
-
   },
   { collection: "Manager" },  { timestamps: true }
 );

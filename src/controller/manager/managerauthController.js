@@ -1,7 +1,7 @@
 const Joi = require('joi');
 const bcrypt = require('bcryptjs');
 const managerModel = require('../../../database/models/managerModel')
-
+const mongoose = require('mongoose');
 const CustomErrorHandler = require('../../services/CustomErrorHandler');
 const JwtService = require('../../services/JwtService');
 
@@ -9,8 +9,7 @@ const authControllers = {
 
     async login(req, res, next) {
         const { email, password } = req.body;
-        data = { email, password }
-        const manager = await managerModel.findOne({ email }).select('-createdAt -updatedAt -__v');
+        const manager = await managerModel.findOne({ email });
         if (!manager) {
             return next(CustomErrorHandler.error(500, 'User not found.'));
         }
@@ -18,6 +17,10 @@ const authControllers = {
         if (match) {
             token = await JwtService.sign(manager.toJSON());
             const { _id, name, email } = manager;
+            const Id = mongoose.Types.ObjectId(_id);
+            req.session.user = {Id,email};
+          //  req.session.save();
+
             res.status(200).json({
                 status: "Success",
                 message: 'Manager Login Successfully.',
@@ -32,26 +35,29 @@ const authControllers = {
     },
 
     async register(req, res, next) {
-    
+
         try {
             const hashedPassword = await bcrypt.hash(req.body.password, 10);
-            const { name, email, role,businessUnit } = req.body;
+            const { name, email, role, businessUnit } = req.body;
             const manager = await managerModel.findOne({ email }).select('-createdAt -updatedAt -__v');
 
             if (manager) {
                 return next(CustomErrorHandler.error(500, 'email already exist.'));
             }
-            const data = new managerModel({ name, email, password: hashedPassword, role,businessUnit });
-            const result = await data.save(Response => {
-                // console.log("kdd",Response);
-                res.status(200).json({
+            const data = new managerModel({ name, email, password: hashedPassword, role, businessUnit });
+            const result = await data.save()
+            if (result.error) {
+                res.status(502).json({
                     status: 200,
                     message: 'Manager Register Successfully.',
-                });
-            
+                })
+            }
+            res.status(200).json({
+                status: 200,
+                message: 'Manager Register Successfully.',
             });
 
-        // console.log("gqsjgjx",result);;
+            // console.log("gqsjgjx",result);;
         } catch (error) {
             return next(error);
         }

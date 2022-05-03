@@ -1,16 +1,23 @@
 const express = require('express');
 const app = express();
+const session = require('express-session')
+const cookieParser = require('cookie-parser')
+const { APP_PORT, DB_URL } = require('./configg/index');
 
-const { APP_PORT, DB_URL } = require('../Node_project/configg/index');
+const managerRoutes = require('./src/routes/managerRoutes');
+const employeeRoutes = require('./src/routes/employeeroute')
 
-const managerRoutes = require('../Node_project/src/routes/managerRoutes');
-
-const errorHandler = require('../Node_project/src/middleware/errorHandler');
+const errorHandler = require('./src/middleware/errorHandler');
 
 const mongoose = require('mongoose');
 
 /* ----------------------------------------- CORS ----------------------------------------- */
-
+app.use(cookieParser());
+app.use(session({
+    resave: true,
+    saveUninitialized: true,
+    secret: "secret"
+}))
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header(
@@ -27,12 +34,17 @@ app.use((req, res, next) => {
 
 /* ----------------------------------------- DATABASE CONNECTION ----------------------------------------- */
 
-mongoose.connect(DB_URL, { useUnifiedTopology: true, useUnifiedTopology: true, useUnifiedTopology: false });
+mongoose.connect(DB_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+});
 
 const db = mongoose.connection;
 db.on('Database error => ', console.error.bind(console, 'Connection Error:'));
 db.once('open', () => {
-     console.log("Database Connected...!");
+    console.log("Database Connected...!");
     //console.log(``);
 });
 /* ------------------------------------------------------------------------------------------------------- */
@@ -47,7 +59,8 @@ app.get('/', function (req, res) {
     res.send(' <h1> Backend !</h1>')
 })
 
-app.use("/api/manager", managerRoutes);  // manager Routes
+app.use("/api/manager", managerRoutes); 
+app.use("/employee",employeeRoutes) // manager Routes
 /* -------------------------------------------------------- */
 
 /*  Error Handler  */

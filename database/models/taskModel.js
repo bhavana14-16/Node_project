@@ -1,3 +1,4 @@
+const { string } = require("joi");
 const mongoose = require("mongoose");
 
 const TaskSchema = new mongoose.Schema(
@@ -20,21 +21,13 @@ const TaskSchema = new mongoose.Schema(
         index: true,
         required: true,
      },
-    taskassignedDate: {
+    // taskassignedDate: {
+    //     type: String,
+    //     required: true,
+    // },
+    taskStartDate:{
         type: String,
-        required: true,
-    },
-    createdAt:{
-        type:String,
-        required: true,
-    },
-    updatedAt:{
-        type:String,
-        required: true,
-    },
-    deletedAt:{
-        type:String,
-        required: true,
+        required: true
     },
     taskName:{
         type:String,
