@@ -14,6 +14,10 @@ const ProjectSchema = new mongoose.Schema(
         type:String,
         required: true,
     },
+    managerId:{
+      type: String,
+      required: true
+    }
   },
   { timestamps: true },
   { collection: "project" }

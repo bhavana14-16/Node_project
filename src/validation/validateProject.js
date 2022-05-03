@@ -4,7 +4,7 @@ const ValidateProject = (reqBody) => {
         Schema = Joi.object().keys({
             title: Joi.string().required(),
             description: Joi.string().required(),
-            businessUnit: Joi.string().required(),
+            businessUnit: Joi.string().valid('India & Mauritius','South Africa','America','Produts & RIB').required(),
         })
         const result = Schema.validate(reqBody)
         if (result.error) {

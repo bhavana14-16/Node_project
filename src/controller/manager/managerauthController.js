@@ -1,4 +1,5 @@
 const Joi = require('joi');
+const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const managerModel = require('../../../database/models/managerModel')
 const mongoose = require('mongoose');
@@ -10,17 +11,21 @@ const authControllers = {
     async login(req, res, next) {
         const { email, password } = req.body;
         const manager = await managerModel.findOne({ email });
+        console.log(manager)
         if (!manager) {
             return next(CustomErrorHandler.error(500, 'User not found.'));
         }
         const match = await bcrypt.compare(password, manager.password);
         if (match) {
-            token = await JwtService.sign(manager.toJSON());
             const { _id, name, email } = manager;
-            const Id = mongoose.Types.ObjectId(_id);
-            req.session.user = {Id,email};
-          //  req.session.save();
-
+            const payload = {
+                user: {
+                    Id: _id
+                },
+            }
+            var token = await jwt.sign(payload, JWT_SECRET);
+            console.log(token)
+            manager.token = token;
             res.status(200).json({
                 status: "Success",
                 message: 'Manager Login Successfully.',
@@ -56,8 +61,6 @@ const authControllers = {
                 status: 200,
                 message: 'Manager Register Successfully.',
             });
-
-            // console.log("gqsjgjx",result);;
         } catch (error) {
             return next(error);
         }
