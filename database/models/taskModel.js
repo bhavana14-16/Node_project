@@ -1,50 +1,35 @@
-const { string } = require("joi");
 const mongoose = require("mongoose");
-
 const TaskSchema = new mongoose.Schema(
-{
-    managerId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Manager",
-        index: true,
-        required: true,
-      },
-    projectId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Project",
-        index: true,
-        required: true,
+    {
+        taskStartDate: {
+            type: String,
+            required: true,
+        },
+        taskEndDate: {
+            type: String,
+            required: true,
+        },
+        taskDescription: {
+            type: String,
+            required: true
+        },
+        taskName: {
+            type: String,
+            required: true,
+        },
+        projectId:[{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'project'
+          }],
+        status: {
+            type: String,
+            enum: ["pending", "in progress", "complete", "approved"],
+            default: "pending",
+        },
     },
-    employeeId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Employee",
-        index: true,
-        required: true,
-     },
-    // taskassignedDate: {
-    //     type: String,
-    //     required: true,
-    // },
-    taskStartDate:{
-        type: String,
-        required: true
-    },
-    taskName:{
-        type:String,
-        required: true,
-    },
-    status:{
-        type:String,
-        enum: ["pending", "in progress", "complete","approved"],
-        default: "pending",
-    },
-  },
-  { timestamps: true },
-  { collection: "task" }
-
+    { timestamps: true },
+    { collection: "task" }
 );
-
-
 const task = new mongoose.model('task', TaskSchema);
 module.exports = task;
 

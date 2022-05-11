@@ -16,19 +16,22 @@ const ProjectEmployeeSchema = new mongoose.Schema(
     },
     employeeId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Employee",
+      ref: "employee",
       index: true,
       required: true,
     },
-    projectAssignDate: {
-      type: String,
+    taskId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "task",
+      index: true,
       required: true,
     },
-    projectEndDate: {
-      type: String,
-      required: true,
+    status:{
+      type: [String],
+      enum: ["pending", "in progress", "complete","approved"],
+      default: "pending",
     },
-    projectName: {
+    taskDescription:{
       type: String,
       required: true
     }

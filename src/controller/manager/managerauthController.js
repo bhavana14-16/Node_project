@@ -1,43 +1,50 @@
 const Joi = require('joi');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const managerModel = require('../../../database/models/managerModel')
-const mongoose = require('mongoose');
+const managerModel = require('../../../database/models/managerModel');
 const CustomErrorHandler = require('../../services/CustomErrorHandler');
-const JwtService = require('../../services/JwtService');
 
 const authControllers = {
 
     async login(req, res, next) {
-        const { email, password } = req.body;
-        const manager = await managerModel.findOne({ email });
-        console.log(manager)
-        if (!manager) {
-            return next(CustomErrorHandler.error(500, 'User not found.'));
-        }
-        const match = await bcrypt.compare(password, manager.password);
-        if (match) {
-            const { _id, name, email } = manager;
-            const payload = {
-                user: {
-                    Id: _id
-                },
+        try {
+            const { email, password } = req.body;
+            const manager = await managerModel.findOne({ email });
+            if (!manager) {
+                return next(CustomErrorHandler.error(500, 'User not found.'));
             }
-            var token = await jwt.sign(payload, JWT_SECRET);
-            console.log(token)
-            manager.token = token;
-            res.status(200).json({
-                status: "Success",
-                message: 'Manager Login Successfully.',
-                data: { _id, name, email, token }
-            });
-        } else {
-            res.status(500).json({
+            const match = await bcrypt.compare(password, manager.password);
+            if (match) {
+                const { _id, name, email } = manager;
+                const payload = {
+                    user: {
+                        Id: _id
+                    },
+                }
+                var token = await jwt.sign(payload, JWT_SECRET, { expiresIn: '90d' });
+                const role = manager.role;
+                console.log(token)
+                manager.token = token;
+                res.status(200).json({
+                    status: "Success",
+                    message: 'Manager Login Successfully.',
+                    data: { _id, name, email, token, role }
+                });
+            } else {
+                res.status(500).json({
+                    status: "Failure",
+                    message: 'Invalid credentials please try again.',
+                });
+            }
+        }
+        catch (error) {
+            return res.status(500).json({
                 status: "Failure",
-                message: 'Invalid credentials please try again.',
+                message: error,
             });
         }
     },
+
 
     async register(req, res, next) {
 
@@ -62,7 +69,10 @@ const authControllers = {
                 message: 'Manager Register Successfully.',
             });
         } catch (error) {
-            return next(error);
+            return res.status(500).json({
+                status: "Failure",
+                message: error,
+            });
         }
     }
 }

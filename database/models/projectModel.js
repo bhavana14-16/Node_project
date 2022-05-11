@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const ProjectSchema = new mongoose.Schema(
   {
-    title: {
+    ProjectName: {
       type: String,
       required: true,
     },
@@ -10,14 +10,22 @@ const ProjectSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    businessUnit:{
-        type:String,
-        required: true,
+    projectStartDate: {
+      type: String,
+      required : true
     },
-    managerId:{
+    projectEndDate:{
       type: String,
       required: true
-    }
+    },
+    employeeId: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "employee"
+    }],
+    managerId:[{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Manager"
+    }]
   },
   { timestamps: true },
   { collection: "project" }

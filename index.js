@@ -3,7 +3,7 @@ const app = express();
 const session = require('express-session')
 const cookieParser = require('cookie-parser')
 const { APP_PORT, DB_URL } = require('./configg/index');
-
+const logger = require('../Node_project/src/middleware/logger')
 const managerRoutes = require('./src/routes/managerRoutes');
 const employeeRoutes = require('./src/routes/employeeroute')
 
@@ -42,7 +42,10 @@ mongoose.connect(DB_URL, {
 });
 
 const db = mongoose.connection;
-db.on('Database error => ', console.error.bind(console, 'Connection Error:'));
+db.on('Database error => ', 
+console.error.bind(console, 'Connection Error:'),
+logger.error(console, 'Connection Error:')
+)
 db.once('open', () => {
     console.log("Database Connected...!");
     //console.log(``);
@@ -51,6 +54,15 @@ db.once('open', () => {
 
 /* ------------------------ MIDDLEWARES ------------------------ */
 app.use(express.json());
+app.use((req,res,next)=>{
+    logger.info(req.body);
+    let oldSend = res.send;
+    res.send= function(data){
+        logger.info(data);
+        oldSend.apply(res,arguments)
+    }
+    next();
+})
 /* -------------------------------------------------------- */
 
 /* ------------------------ ROUTES ------------------------ */
