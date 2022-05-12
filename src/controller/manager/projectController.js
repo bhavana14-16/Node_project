@@ -1,5 +1,4 @@
 const { ValidateProject, validateUpdatedProject, validateProjectByMangerId } = require('../../validation/validateProject')
-const Manager = require('../../../database/models/managerModel')
 const Project = require('../../../database/models/projectModel')
 const Employee = require('../../../database/models/employeeModel')
 const logger = require('../../middleware/logger')
@@ -31,10 +30,10 @@ const getProjectByManager = async (req, res) => {
                 }
             }
         ])
-        if (!data) {
-            return res.status(404).send({ message: "You don't have any project assign" })
+        if (data && data.length) {
+            return res.status(200).send({ data: data })
         }
-        return res.status(200).send({ data: data })
+        return res.status(404).send({ message: "You don't have any project assign" })
     }
     catch (error) {
         console.log(error)
@@ -118,67 +117,58 @@ const getAllProjects = async (req, res) => {
         return res.status(500).send({ message: 'Technical error occurs while getting project' })
     }
 }
-const getAllEmployeeByManager = async (req, res) => {
-    try {
-        console.log(req.managerId)
-        const data = await Project.aggregate([
-            {
-                $match: {
-                    managerId: mongoose.Types.ObjectId(req.managerId)
-                }
-            },
-            {
-                $lookup: {
-                    from: 'employee',
-                    localField: 'employeeId',
-                    foreignField: '_id',
-                    as: 'record'
-                }
-            },
-            {
-                $project: {
-                    employeeName: "$record.name"
-                }
-            }
-        ])
-        if (!data) {
-            return res.status(404).send({ message: "Data Not Found" })
-        }
-        return res.status(200).send({ data: data })
-    }
-    catch (error) {
-        return res.status(500).send({ message: 'Technical error occurs while inserting employeee' })
-    }
-}
-const getEmployeeByProject = async (req, res) => {
-    try {
-        const data = await Project.findById(req.params.id).populate("employeeId")
-        if (data.employeeId.length) {
-            const emp_data = data.employeeId.map(item => ({ Id: item._id, name: item.name }));
-            return res.status(200).send({ data: emp_data })
-        }
-        return res.status(404).send({ mesage: "Project doesn't have any employee assign" })
-    }
-    catch (error) {
-        console.log(error)
-        logger.error(error)
-        return res.status(500).send({ mesage: "Technical Error In Getting Project" })
-    }
-}
+// const getAllEmployeeByManager = async (req, res) => {
+//     try {
+//         console.log(req.managerId)
+//         const data = await Project.aggregate([
+//             {
+//                 $match: {
+//                     managerId: mongoose.Types.ObjectId(req.managerId)
+//                 }
+//             },
+//             {
+//                 $lookup: {
+//                     from: 'employee',
+//                     localField: 'employeeId',
+//                     foreignField: '_id',
+//                     as: 'record'
+//                 }
+//             },
+//             {
+//                 $project: {
+//                     employeeName: "$record.name"
+//                 }
+//             }
+//         ])
+//         if (!data) {
+//             return res.status(404).send({ message: "Data Not Found" })
+//         }
+//         return res.status(200).send({ data: data })
+//     }
+//     catch (error) {
+//         return res.status(500).send({ message: 'Technical error occurs while inserting employeee' })
+//     }
+//}
+
 const addProject = async (req, res) => {
     try {
-        const pr = await Project.findOne({ProjectName: req.body.ProjectName}).exec();
-        console.log(pr);
-        if(pr)
-        {
+        const validate_addpr = validateAddProject(req.body)
+        if (validate_addpr.error) {
+            return res.status(402).json({
+                message: 'Validation error',
+                error: result_validate.data
+            })
+        }
+        const pr = await Project.findOne({ ProjectName: req.body.ProjectName }).exec();
+        if (Object.keys(pr).length) {
             if (pr.managerId.includes(mongoose.Types.ObjectId(req.managerId))) {
                 return res.status(404).send({ message: 'You already have allocated this project' })
             }
             pr.managerId.push(req.managerId);
             await pr.save();
-            return res.status(200).send({ data : pr})
+            return res.status(200).send({ data: pr })
         }
-       return res.status(404).send({message: 'Project Not Found'});
+        return res.status(404).send({ message: 'Project Not Found' });
     }
     catch (error) {
         console.log(error);
@@ -189,8 +179,7 @@ module.exports = {
     deleteProjectById,
     updateProject,
     getAllProjects,
-    getAllEmployeeByManager,
-    getEmployeeByProject,
+  //  getAllEmployeeByManager,
     addProjecttoEmployeeByManager,
     getProjectByManager,
     addProject

@@ -1634,3 +1634,836 @@
 {"level":"error","timestamp":"2022-05-11T09:08:22.543Z"}
 {"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-11T09:08:22.544Z"}
 {"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-11T09:08:22.545Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:37:02.497Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:39:31.261Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:44:29.924Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:44:31.856Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:45:41.790Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:45:43.988Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:46:53.547Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:46:56.006Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:47:02.901Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:48:08.185Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:48:55.310Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:49:03.654Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:49:16.195Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:49:23.914Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:51:29.625Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:51:35.055Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:52:02.906Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:52:10.072Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:52:14.626Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:54:23.451Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:54:31.144Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:54:40.483Z"}
+{"level":"info","message":"No token provided!","timestamp":"2022-05-11T14:54:40.485Z"}
+{"level":"info","message":"{\"message\":\"No token provided!\",\"level\":\"info\"}","timestamp":"2022-05-11T14:54:40.486Z"}
+{"level":"info","message":{"email":"sumitm@gmail.com","password":"sumit12"},"timestamp":"2022-05-11T14:55:44.071Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"6278e015c2612783f473d103\",\"name\":\"Sumit More\",\"email\":\"sumitm@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OGUwMTVjMjYxMjc4M2Y0NzNkMTAzIn0sImlhdCI6MTY1MjI4MDk0NCwiZXhwIjoxNjYwMDU2OTQ0fQ.vpsvb0x7WrGmXSqnE1WGXs_u5QuQEZg8vcQWuAWEveE\",\"role\":\"manager\"}}","timestamp":"2022-05-11T14:55:44.213Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:55:55.987Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":\"\\\"projectId\\\" is required\"}","timestamp":"2022-05-11T14:55:56.001Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:56:54.334Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:57:02.169Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:57:12.611Z"}
+{"level":"info","message":"Technical error in adding task","timestamp":"2022-05-11T14:57:12.671Z"}
+{"level":"info","message":"{\"message\":\"Technical error in adding task\",\"level\":\"info\"}","timestamp":"2022-05-11T14:57:12.673Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:57:22.210Z"}
+{"level":"info","message":{"taskDescription":"Coding & implementation","taskEndDate":"07/12/2022","taskName":"Coding & implementation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T14:57:27.098Z"}
+{"level":"info","message":"Task already exist in db","timestamp":"2022-05-11T14:57:27.117Z"}
+{"level":"info","message":"{\"message\":\"Task already exist in db\",\"level\":\"info\"}","timestamp":"2022-05-11T14:57:27.118Z"}
+{"level":"info","message":"Technical error in adding task","timestamp":"2022-05-11T14:57:27.154Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:58:43.054Z"}
+{"level":"info","message":{"taskDescription":"Test Caes","taskEndDate":"07/15/2022","taskName":"Test Cases","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T14:58:47.241Z"}
+{"level":"info","message":"Technical error in adding task","timestamp":"2022-05-11T14:58:47.286Z"}
+{"level":"info","message":"{\"message\":\"Technical error in adding task\",\"level\":\"info\"}","timestamp":"2022-05-11T14:58:47.287Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T14:59:11.916Z"}
+{"level":"info","message":{"taskDescription":"Database Design","taskEndDate":"07/15/2022","taskName":"Database Design","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T14:59:40.281Z"}
+{"level":"info","message":"Technical error in adding task","timestamp":"2022-05-11T14:59:40.351Z"}
+{"level":"info","message":"{\"message\":\"Technical error in adding task\",\"level\":\"info\"}","timestamp":"2022-05-11T14:59:40.355Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:00:16.337Z"}
+{"level":"info","message":{"taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:01:18.999Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:01:19.047Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:01:19.049Z"}
+{"level":"info","message":{"taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:02:07.954Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:02:07.979Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:02:07.980Z"}
+{"level":"info","message":{"taskDescription":"R&D / Technical Readin","taskEndDate":"07/15/2022","taskName":"R&D / Technical Reading","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:02:46.514Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:02:46.542Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:02:46.543Z"}
+{"level":"info","message":{"taskDescription":"Requirement Gathering","taskEndDate":"07/15/2022","taskName":"Requirement Gathering","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:03:17.551Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:03:17.573Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:03:17.574Z"}
+{"level":"info","message":{"taskDescription":"Use Case Creation","taskEndDate":"07/15/2022","taskName":"Use Case Creation","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:03:53.279Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:03:53.305Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:03:53.306Z"}
+{"level":"info","message":{"taskDescription":"Bug Fixing","taskEndDate":"07/15/2022","taskName":"Bug Fixing","taskStartDate":"07/12/2022"},"timestamp":"2022-05-11T15:04:30.942Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:04:30.962Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:04:30.963Z"}
+{"level":"info","message":{"taskDescription":"Client Interaction","taskEndDate":"08/15/2022","taskName":"Client Interaction","taskStartDate":"08/12/2022"},"timestamp":"2022-05-11T15:05:07.766Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:05:07.792Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:05:07.793Z"}
+{"level":"info","message":{"taskDescription":"Code Reviewn","taskEndDate":"09/12/2022","taskName":"Code Review","taskStartDate":"09/11/2022"},"timestamp":"2022-05-11T15:05:51.472Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-11T15:05:51.492Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-11T15:05:51.492Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:06:20.913Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:07:12.977Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:32:08.171Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:33:01.140Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:33:06.747Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:33:21.641Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:37:39.694Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:37:48.306Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:37:59.116Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:38:08.920Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:38:24.368Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:39:00.799Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:39:14.713Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:39:33.111Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:40:23.956Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:40:38.279Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:41:26.543Z"}
+{"level":"info","message":{"email":"bhavana@gmail.com","password":"bhavana12"},"timestamp":"2022-05-11T15:45:12.274Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"627925b08ed84e2f789a8613\",\"name\":\"Bhavana Shinde\",\"email\":\"bhavana@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OTI1YjA4ZWQ4NGUyZjc4OWE4NjEzIn0sImlhdCI6MTY1MjI4MzkxMiwiZXhwIjoxNjYwMDU5OTEyfQ.zXU-duP_wugdSc8F_A8jIUJpZlMSuKlWhf8xQ33PRy4\",\"role\":\"manager\"}}","timestamp":"2022-05-11T15:45:12.416Z"}
+{"level":"info","message":{"employeeId":"6278e8f129d156713c4170b6","projectId":"6279393754274c81ddacef3c","taskDescription":"pls implement login functionality","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T15:46:54.612Z"}
+{"level":"info","message":{"data":{"__v":1,"_id":"627bcfef21acfb37e4e087cc","createdAt":"2022-05-11T15:02:07.966Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T15:46:54.642Z"}},"timestamp":"2022-05-11T15:46:54.679Z"}
+{"level":"info","message":"{\"data\":{\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"_id\":\"627bcfef21acfb37e4e087cc\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T15:46:54.642Z\",\"__v\":1}}","timestamp":"2022-05-11T15:46:54.679Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:52:57.465Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T15:53:48.881Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"projectId":"627b7238f14f0ac55ef5dfe4","taskEndDate":[],"taskId":[],"taskName":[],"taskStartDate":[]}]},"timestamp":"2022-05-11T15:53:48.907Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"projectId\":\"6279393754274c81ddacef3c\",\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"taskName\":[\"Requirement Understanding\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"taskId\":[],\"taskStartDate\":[],\"taskEndDate\":[],\"taskName\":[]}]}","timestamp":"2022-05-11T15:53:48.911Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:54:00.120Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:54:02.865Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:54:18.103Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:54:29.911Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T15:54:35.861Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"projectId":"627b7238f14f0ac55ef5dfe4","taskEndDate":[],"taskId":[],"taskName":[],"taskStartDate":[]}]},"timestamp":"2022-05-11T15:54:35.876Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"projectId\":\"6279393754274c81ddacef3c\",\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"taskName\":[\"Requirement Understanding\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"taskId\":[],\"taskStartDate\":[],\"taskEndDate\":[],\"taskName\":[]}]}","timestamp":"2022-05-11T15:54:35.877Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:55:00.241Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:55:17.485Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:55:36.337Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:55:46.518Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T15:55:55.390Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:56:37.894Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T15:56:40.427Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T15:56:46.581Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:02:45.851Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:02:55.132Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:03:23.517Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:03:31.820Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:03:44.585Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:04:51.805Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:04:56.895Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:05:00.817Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":1,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":1,"_id":"627bcfef21acfb37e4e087cc","createdAt":"2022-05-11T15:02:07.966Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T15:46:54.642Z"}],"updatedAt":"2022-05-09T13:22:27.154Z"},{"ProjectName":"RBL Bank","__v":4,"_id":"627b7238f14f0ac55ef5dfe4","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[],"updatedAt":"2022-05-11T07:07:12.423Z"}]},"timestamp":"2022-05-11T16:05:00.832Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":1,\"updatedAt\":\"2022-05-09T13:22:27.154Z\",\"record\":[{\"_id\":\"627bcfef21acfb37e4e087cc\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T15:46:54.642Z\",\"__v\":1}]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":4,\"updatedAt\":\"2022-05-11T07:07:12.423Z\",\"record\":[]}]}","timestamp":"2022-05-11T16:05:00.834Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:05:36.523Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:05:41.249Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":1,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":1,"_id":"627bcfef21acfb37e4e087cc","createdAt":"2022-05-11T15:02:07.966Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T15:46:54.642Z"}],"updatedAt":"2022-05-09T13:22:27.154Z"},{"ProjectName":"RBL Bank","__v":4,"_id":"627b7238f14f0ac55ef5dfe4","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[],"updatedAt":"2022-05-11T07:07:12.423Z"}]},"timestamp":"2022-05-11T16:05:41.265Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":1,\"updatedAt\":\"2022-05-09T13:22:27.154Z\",\"record\":[{\"_id\":\"627bcfef21acfb37e4e087cc\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T15:46:54.642Z\",\"__v\":1}]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":4,\"updatedAt\":\"2022-05-11T07:07:12.423Z\",\"record\":[]}]}","timestamp":"2022-05-11T16:05:41.266Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:07:21.770Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:08:23.330Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:08:25.397Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:09:06.447Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:10:39.829Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:10:48.147Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:10:57.680Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:11:22.336Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:11:45.995Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:12:06.770Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:12:47.092Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:13:09.097Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:13:31.223Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:13:43.899Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:13:47.012Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":[["6278e8f129d156713c4170b6"]],"projectId":[["6279393754274c81ddacef3c"]],"status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":[],"projectId":[],"status":[],"taskDescription":[],"taskEndDate":[],"taskId":[],"taskName":[],"taskStartDate":[]}]},"timestamp":"2022-05-11T16:13:47.030Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":[[\"6279393754274c81ddacef3c\"]],\"employeeId\":[[\"6278e8f129d156713c4170b6\"]],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"projectId\":[],\"employeeId\":[],\"taskId\":[],\"taskName\":[],\"taskDescription\":[],\"taskStartDate\":[],\"taskEndDate\":[],\"status\":[]}]}","timestamp":"2022-05-11T16:13:47.031Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:14:42.941Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:14:45.935Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:14:57.454Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:15:01.485Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"projectId":"627b7238f14f0ac55ef5dfe4","status":[],"taskDescription":[],"taskEndDate":[],"taskId":[],"taskName":[],"taskStartDate":[]}]},"timestamp":"2022-05-11T16:15:01.501Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"taskId\":[],\"taskName\":[],\"taskDescription\":[],\"taskStartDate\":[],\"taskEndDate\":[],\"status\":[]}]}","timestamp":"2022-05-11T16:15:01.502Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:15:30.909Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:15:53.701Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:15:59.355Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:15:59.388Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:15:59.389Z"}
+{"level":"info","message":{"employeeId":"62792fd654274c81ddaceef7","projectId":"627b7238f14f0ac55ef5dfe4","taskDescription":"pls implement login functionality","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T16:18:42.973Z"}
+{"level":"info","message":{"data":{"__v":2,"_id":"627bcfef21acfb37e4e087cc","createdAt":"2022-05-11T15:02:07.966Z","employeeId":["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c","627b7238f14f0ac55ef5dfe4"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"}},"timestamp":"2022-05-11T16:18:43.036Z"}
+{"level":"info","message":"{\"data\":{\"projectId\":[\"6279393754274c81ddacef3c\",\"627b7238f14f0ac55ef5dfe4\"],\"employeeId\":[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"_id\":\"627bcfef21acfb37e4e087cc\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2}}","timestamp":"2022-05-11T16:18:43.038Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:18:52.330Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":["62792fd654274c81ddaceef7","6278e8f129d156713c4170b6"],"projectId":"627b7238f14f0ac55ef5dfe4","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:18:52.340Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:18:52.341Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:19:47.565Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:19:53.568Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:19:57.212Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":[["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"]],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":[["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"]],"projectId":"627b7238f14f0ac55ef5dfe4","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:19:57.227Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:19:57.229Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:25:36.763Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":[["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"]],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]},{"_id":"627b7238f14f0ac55ef5dfe4","employeeId":[["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"]],"projectId":"627b7238f14f0ac55ef5dfe4","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:25:36.776Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]},{\"_id\":\"627b7238f14f0ac55ef5dfe4\",\"projectId\":\"627b7238f14f0ac55ef5dfe4\",\"employeeId\":[[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:25:36.778Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:26:47.155Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:26:52.313Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:30:55.146Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:31:00.265Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:31:33.228Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:31:37.418Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:32:56.698Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:33:03.875Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:33:03.904Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:33:03.906Z"}
+{"level":"info","message":{"email":"sumitm@gmail.com","password":"sumit12"},"timestamp":"2022-05-11T16:38:15.950Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"6278e015c2612783f473d103\",\"name\":\"Sumit More\",\"email\":\"sumitm@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OGUwMTVjMjYxMjc4M2Y0NzNkMTAzIn0sImlhdCI6MTY1MjI4NzA5NiwiZXhwIjoxNjYwMDYzMDk2fQ.WsnD3aq7arFN5qZ46Di9C_LpQknsqhPMDORrwhUWpa4\",\"role\":\"manager\"}}","timestamp":"2022-05-11T16:38:16.091Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:42:08.893Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:42:18.290Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6"],"projectId":"6279393754274c81ddacef3c","status":["pending"],"taskDescription":["Requirement Understanding"],"taskEndDate":["07/15/2022"],"taskId":["627bcfef21acfb37e4e087cc"],"taskName":["Requirement Understanding"],"taskStartDate":["07/12/2022"]}]},"timestamp":"2022-05-11T16:42:18.323Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"taskId\":[\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Requirement Understanding\"],\"taskDescription\":[\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\"],\"status\":[\"pending\"]}]}","timestamp":"2022-05-11T16:42:18.328Z"}
+{"level":"info","message":{"ProjectName":"LP Gas","employeeId":"627ac9970e992329e42402f7"},"timestamp":"2022-05-11T16:44:23.325Z"}
+{"level":"info","message":"{\"success\":true,\"data\":{\"role\":\"employee\",\"_id\":\"627ac9970e992329e42402f7\",\"name\":\"Chetan Pawar\",\"email\":\"chetanp@gmail.com\",\"password\":\"$2a$10$t0Z.MpjJWitXBmqJrEFRQOT5jivgdaC3iwr0/kLDJ4.55T4CQmNki\",\"__v\":0}}","timestamp":"2022-05-11T16:44:23.409Z"}
+{"level":"info","message":{"employeeId":"627ac9970e992329e42402f7","projectId":"6279393754274c81ddacef3c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentationg","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T16:46:22.235Z"}
+{"level":"info","message":{"data":"task not found"},"timestamp":"2022-05-11T16:46:22.250Z"}
+{"level":"info","message":"{\"data\":\"task not found\"}","timestamp":"2022-05-11T16:46:22.250Z"}
+{"level":"info","message":{"employeeId":"627ac9970e992329e42402f7","projectId":"6279393754274c81ddacef3c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-11T16:46:31.717Z"}
+{"level":"info","message":{"data":{"__v":1,"_id":"627bcfbf21acfb37e4e087c9","createdAt":"2022-05-11T15:01:19.023Z","employeeId":["627ac9970e992329e42402f7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"}},"timestamp":"2022-05-11T16:46:31.752Z"}
+{"level":"info","message":"{\"data\":{\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"627ac9970e992329e42402f7\"],\"status\":\"pending\",\"_id\":\"627bcfbf21acfb37e4e087c9\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1}}","timestamp":"2022-05-11T16:46:31.753Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:46:45.707Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"projectId":"6279393754274c81ddacef3c","status":["pending","pending"],"taskDescription":["Documentation","Requirement Understanding"],"taskEndDate":["07/15/2022","07/15/2022"],"taskId":["627bcfbf21acfb37e4e087c9","627bcfef21acfb37e4e087cc"],"taskName":["Documentation","Requirement Understanding"],"taskStartDate":["07/12/2022","07/12/2022"]}]},"timestamp":"2022-05-11T16:46:45.735Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":\"6279393754274c81ddacef3c\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"taskId\":[\"627bcfbf21acfb37e4e087c9\",\"627bcfef21acfb37e4e087cc\"],\"taskName\":[\"Documentation\",\"Requirement Understanding\"],\"taskDescription\":[\"Documentation\",\"Requirement Understanding\"],\"taskStartDate\":[\"07/12/2022\",\"07/12/2022\"],\"taskEndDate\":[\"07/15/2022\",\"07/15/2022\"],\"status\":[\"pending\",\"pending\"]}]}","timestamp":"2022-05-11T16:46:45.735Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:47:30.691Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:47:31.995Z"}
+{"level":"error","timestamp":"2022-05-11T16:47:32.023Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:47:32.024Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:47:32.026Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:48:24.896Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:48:39.105Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:48:49.788Z"}
+{"level":"error","timestamp":"2022-05-11T16:48:49.813Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:48:49.814Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:48:49.815Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:49:20.813Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:49:32.163Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:49:35.375Z"}
+{"level":"error","timestamp":"2022-05-11T16:49:35.422Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:49:35.423Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:49:35.425Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:50:04.787Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:50:27.689Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:51:47.737Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:51:49.451Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:51:59.358Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:52:14.569Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:52:17.805Z"}
+{"level":"error","timestamp":"2022-05-11T16:52:17.841Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:52:17.842Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:52:17.843Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:52:50.041Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:52:56.240Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:53:00.944Z"}
+{"level":"error","timestamp":"2022-05-11T16:53:00.967Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:53:00.968Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:53:00.969Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:53:17.612Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:53:25.130Z"}
+{"level":"error","timestamp":"2022-05-11T16:53:25.159Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:53:25.160Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:53:25.163Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:54:13.199Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:54:29.746Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:54:39.191Z"}
+{"level":"error","timestamp":"2022-05-11T16:54:39.214Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T16:54:39.214Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T16:54:39.216Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:54:58.703Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T16:55:14.766Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T16:55:24.537Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":1,"_id":"627bcfbf21acfb37e4e087c9","createdAt":"2022-05-11T15:01:19.023Z","employeeId":["627ac9970e992329e42402f7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"},{"__v":2,"_id":"627bcfef21acfb37e4e087cc","createdAt":"2022-05-11T15:02:07.966Z","employeeId":["6278e8f129d156713c4170b6","62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c","627b7238f14f0ac55ef5dfe4"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"}]},"timestamp":"2022-05-11T16:55:24.560Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627bcfbf21acfb37e4e087c9\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"627ac9970e992329e42402f7\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1},{\"_id\":\"627bcfef21acfb37e4e087cc\",\"projectId\":[\"6279393754274c81ddacef3c\",\"627b7238f14f0ac55ef5dfe4\"],\"employeeId\":[\"6278e8f129d156713c4170b6\",\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2}]}]}","timestamp":"2022-05-11T16:55:24.561Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:05:20.498Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:05:36.012Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:05:53.356Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:06:01.825Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:06:26.293Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:06:37.635Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:06:42.328Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:11:52.869Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:12:02.168Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:12:28.258Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:12:40.051Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:27:45.032Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:28:07.079Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:28:35.378Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:29:24.051Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:29:29.065Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:31:54.109Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:32:01.216Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:36:59.346Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:37:17.328Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:37:25.016Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":2,"_id":"627bf1288f6ac82ebc340046","createdAt":"2022-05-11T15:02:07.966Z","projectId":["6279393754274c81ddacef3c","627b7238f14f0ac55ef5dfe4"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"},{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"}]},"timestamp":"2022-05-11T17:37:25.038Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627bf1288f6ac82ebc340046\",\"projectId\":[\"6279393754274c81ddacef3c\",\"627b7238f14f0ac55ef5dfe4\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2},{\"_id\":\"627bf14c8f6ac82ebc340047\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1}]}]}","timestamp":"2022-05-11T17:37:25.039Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:44:59.759Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:45:11.155Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:45:24.723Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:45:31.591Z"}
+{"level":"info","message":"You don't have assign any task to any employee","timestamp":"2022-05-11T17:45:31.621Z"}
+{"level":"info","message":"{\"message\":\"You don't have assign any task to any employee\",\"level\":\"info\"}","timestamp":"2022-05-11T17:45:31.624Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:46:24.028Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:46:27.733Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T17:46:43.938Z"}
+{"$clusterTime":{"clusterTime":"7096536676058529793","signature":{"hash":"E5IOgPseoLug8ULKhOL2UQD+apA=","keyId":"7035363383847157761"}},"code":15983,"codeName":"Location15983","level":"error","name":"MongoError","ok":0,"operationTime":"7096536676058529793","timestamp":"2022-05-11T17:46:43.965Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-11T17:46:43.966Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-11T17:46:43.969Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T17:47:06.780Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:17:36.791Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:18:20.290Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:18:29.671Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:18:39.645Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T18:18:43.601Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:19:16.388Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T18:19:22.560Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:20:10.441Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T18:20:17.704Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:21:04.964Z"}
+{"level":"error","message":{},"timestamp":"2022-05-11T18:21:26.772Z"}
+{"level":"info","message":{},"timestamp":"2022-05-11T18:21:31.157Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":2,"_id":"627bf1288f6ac82ebc340046","createdAt":"2022-05-11T15:02:07.966Z","projectId":["6279393754274c81ddacef3c","627b7238f14f0ac55ef5dfe4"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"},{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":4,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[],"updatedAt":"2022-05-11T07:07:12.423Z"}]},"timestamp":"2022-05-11T18:21:31.184Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627bf1288f6ac82ebc340046\",\"projectId\":[\"6279393754274c81ddacef3c\",\"627b7238f14f0ac55ef5dfe4\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2},{\"_id\":\"627bf14c8f6ac82ebc340047\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":4,\"updatedAt\":\"2022-05-11T07:07:12.423Z\",\"record\":[]}]}","timestamp":"2022-05-11T18:21:31.185Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:02:52.578Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:09:09.108Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:09:20.727Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:09:34.379Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:10:38.134Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:11:07.650Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:22:15.608Z"}
+{"level":"info","message":{"query":"\n    query IntrospectionQuery {\n      __schema {\n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "},"timestamp":"2022-05-12T05:24:27.161Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":{}}","timestamp":"2022-05-12T05:24:27.164Z"}
+{"level":"info","message":{"email":"ajitg@gmail.com","name":"Ajit Gunjal","password":"ajitg12"},"timestamp":"2022-05-12T05:24:52.335Z"}
+{"level":"info","message":"{\"status\":200,\"message\":\"Manager Register Successfully.\"}","timestamp":"2022-05-12T05:24:52.516Z"}
+{"level":"info","message":{"email":"ajitg@gmail.com","password":"ajitg12"},"timestamp":"2022-05-12T05:25:13.409Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"627c9a240607942a208af0b6\",\"name\":\"Ajit Gunjal\",\"email\":\"ajitg@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3YzlhMjQwNjA3OTQyYTIwOGFmMGI2In0sImlhdCI6MTY1MjMzMzExMywiZXhwIjoxNjYwMTA5MTEzfQ.UhoV3W08msMaYZt8SV_SeHXID46a_GTzU-Ec842Tiys\",\"role\":\"manager\"}}","timestamp":"2022-05-12T05:25:13.531Z"}
+{"level":"info","message":{"ProjectName":"RBL Bank"},"timestamp":"2022-05-12T05:26:25.382Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:27:25.575Z"}
+{"level":"info","message":{"ProjectName":"RBL Bank"},"timestamp":"2022-05-12T05:27:32.036Z"}
+{"level":"info","message":{"data":{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","updatedAt":"2022-05-12T05:27:32.071Z"}},"timestamp":"2022-05-12T05:27:32.105Z"}
+{"level":"info","message":"{\"data\":{\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\"}}","timestamp":"2022-05-12T05:27:32.106Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:30:19.632Z"}
+{"level":"error","timestamp":"2022-05-12T05:30:19.663Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:30:19.665Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:30:19.665Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:31:19.019Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:31:25.644Z"}
+{"level":"error","timestamp":"2022-05-12T05:31:25.690Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:31:25.691Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:31:25.693Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:32:10.170Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:32:18.065Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:32:20.805Z"}
+{"level":"error","timestamp":"2022-05-12T05:32:20.848Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:32:20.849Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:32:20.851Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:32:58.289Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:33:40.266Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:34:18.503Z"}
+{"level":"error","timestamp":"2022-05-12T05:34:18.554Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:34:18.555Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:34:18.555Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:35:40.925Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:36:02.637Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:36:10.156Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:36:16.273Z"}
+{"level":"error","timestamp":"2022-05-12T05:36:16.331Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:36:16.332Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:36:16.334Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:37:44.851Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:37:48.539Z"}
+{"level":"error","timestamp":"2022-05-12T05:37:48.590Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:37:48.590Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:37:48.592Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:38:32.019Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:38:35.218Z"}
+{"level":"error","timestamp":"2022-05-12T05:38:35.281Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:38:35.282Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:38:35.283Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:41:08.356Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:42:52.197Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:42:58.919Z"}
+{"level":"error","timestamp":"2022-05-12T05:42:58.955Z"}
+{"level":"info","message":{"maessage":{"level":"error"}},"timestamp":"2022-05-12T05:42:58.956Z"}
+{"level":"info","message":"{\"maessage\":{\"level\":\"error\"}}","timestamp":"2022-05-12T05:42:58.958Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:43:31.825Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:43:36.438Z"}
+{"level":"info","message":{"data":[{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"}]},"timestamp":"2022-05-12T05:43:36.538Z"}
+{"level":"info","message":"{\"data\":[{\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"_id\":\"627bf14c8f6ac82ebc340047\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1}]}","timestamp":"2022-05-12T05:43:36.539Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:43:43.265Z"}
+{"level":"info","message":"you already allocated this task to this project","timestamp":"2022-05-12T05:43:43.292Z"}
+{"level":"info","message":"{\"message\":\"you already allocated this task to this project\",\"level\":\"info\"}","timestamp":"2022-05-12T05:43:43.293Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T05:44:34.783Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"},{"__v":2,"_id":"627c99b48f6ac82ebc340056","createdAt":"2022-05-11T15:02:07.966Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627c9e889185ae4278ea758a","createdAt":"2022-05-12T05:43:36.503Z","projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T05:43:36.503Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T05:44:34.848Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627bf14c8f6ac82ebc340047\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1},{\"_id\":\"627c99b48f6ac82ebc340056\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627c9e889185ae4278ea758a\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T05:43:36.503Z\",\"updatedAt\":\"2022-05-12T05:43:36.503Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T05:44:34.850Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:46:52.457Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:48:22.477Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:48:24.695Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:48:31.506Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:48:50.890Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T05:50:52.629Z"}
+{"level":"info","message":{"employeeId":"6278e8f129d156713c4170b6","projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:53:54.885Z"}
+{"level":"info","message":{"data":[{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","employeeId":[],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"},{"__v":0,"_id":"627ca0728f6ac82ebc34005b","createdAt":"2022-05-12T05:43:36.503Z","employeeId":[],"projectId":[],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T05:43:36.503Z"}]},"timestamp":"2022-05-12T05:53:54.984Z"}
+{"level":"info","message":"{\"data\":[{\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[],\"status\":\"pending\",\"_id\":\"627bf14c8f6ac82ebc340047\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1},{\"projectId\":[],\"employeeId\":[],\"status\":\"pending\",\"_id\":\"627ca0728f6ac82ebc34005b\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T05:43:36.503Z\",\"updatedAt\":\"2022-05-12T05:43:36.503Z\",\"__v\":0}]}","timestamp":"2022-05-12T05:53:54.987Z"}
+{"level":"info","message":{"employeeId":"6278e8f129d156713c4170b6","projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T05:54:35.137Z"}
+{"level":"info","message":"you already allocated this task to this project","timestamp":"2022-05-12T05:54:35.189Z"}
+{"level":"info","message":"{\"message\":\"you already allocated this task to this project\",\"level\":\"info\"}","timestamp":"2022-05-12T05:54:35.190Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T05:54:52.527Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":1,"_id":"627bf14c8f6ac82ebc340047","createdAt":"2022-05-11T15:01:19.023Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/15/2022","taskName":"Documentation","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:46:31.731Z"},{"__v":2,"_id":"627c99b48f6ac82ebc340056","createdAt":"2022-05-11T15:02:07.966Z","projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/15/2022","taskName":"Requirement Understanding","taskStartDate":"07/12/2022","updatedAt":"2022-05-11T16:18:43.004Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca0f255590402244915fc","createdAt":"2022-05-12T05:53:54.957Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T05:53:54.957Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T05:54:52.548Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627bf14c8f6ac82ebc340047\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:01:19.023Z\",\"updatedAt\":\"2022-05-11T16:46:31.731Z\",\"__v\":1},{\"_id\":\"627c99b48f6ac82ebc340056\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"07/12/2022\",\"taskEndDate\":\"07/15/2022\",\"createdAt\":\"2022-05-11T15:02:07.966Z\",\"updatedAt\":\"2022-05-11T16:18:43.004Z\",\"__v\":2}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca0f255590402244915fc\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T05:53:54.957Z\",\"updatedAt\":\"2022-05-12T05:53:54.957Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T05:54:52.549Z"}
+{"level":"info","message":{"taskDescription":"Code Review","taskEndDate":"09/12/2022","taskName":"Code Review","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:01:15.875Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:01:15.923Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:01:15.924Z"}
+{"level":"info","message":{"taskDescription":"Requirement Understanding","taskEndDate":"09/13/2022","taskName":"Requirement Understanding","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:01:57.011Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:01:57.043Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:01:57.044Z"}
+{"level":"info","message":{"taskDescription":"Requirement Gathering","taskEndDate":"09/13/2022","taskName":"Requirement Gathering","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:02:17.901Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:02:17.928Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:02:17.929Z"}
+{"level":"info","message":{"taskDescription":"Coding & Implementation","taskEndDate":"09/13/2022","taskName":"Coding & Implementation","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:02:42.118Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:02:42.149Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:02:42.149Z"}
+{"level":"info","message":{"taskDescription":"Bug Fixing","taskEndDate":"09/13/2022","taskName":"Bug Fixing","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:02:59.230Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:02:59.260Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:02:59.261Z"}
+{"level":"info","message":{"taskDescription":"Database Design","taskEndDate":"09/13/2022","taskName":"Database Design","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:03:31.850Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:03:31.879Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:03:31.879Z"}
+{"level":"info","message":{"taskDescription":"Database Query Optimization","taskEndDate":"09/13/2022","taskName":"Database Query Optimization","taskStartDate":"09/11/2022"},"timestamp":"2022-05-12T06:03:53.943Z"}
+{"level":"info","message":"Task Added Successfully","timestamp":"2022-05-12T06:03:53.973Z"}
+{"level":"info","message":"{\"message\":\"Task Added Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:03:53.973Z"}
+{"level":"info","message":{"employeeId":"6278e8f129d156713c4170b6","projectId":"627be4758f6ac82ebc34000c","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:05:50.464Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T06:05:50.507Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T06:05:50.508Z"}
+{"level":"info","message":{"employeeId":"6278e8f129d156713c4170b6","projectId":"627be4758f6ac82ebc34000c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:06:35.675Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ca3335559040224491610","createdAt":"2022-05-12T06:03:31.864Z","employeeId":[],"projectId":[],"status":"pending","taskDescription":"Database Design","taskEndDate":"09/13/2022","taskName":"Database Design","taskStartDate":"09/11/2022","updatedAt":"2022-05-12T06:03:31.864Z"}]},"timestamp":"2022-05-12T06:06:35.719Z"}
+{"level":"info","message":"{\"data\":[{\"projectId\":[],\"employeeId\":[],\"status\":\"pending\",\"_id\":\"627ca3335559040224491610\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"09/11/2022\",\"taskEndDate\":\"09/13/2022\",\"createdAt\":\"2022-05-12T06:03:31.864Z\",\"updatedAt\":\"2022-05-12T06:03:31.864Z\",\"__v\":0}]}","timestamp":"2022-05-12T06:06:35.719Z"}
+{"level":"info","message":{"projectId":"6279393754274c81ddacef3c","taskDescription":"it includes name,email and password and address only","taskEndDate":"07/12/2022","taskName":"Make Dailogue page","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:07:49.927Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[],"updatedAt":"2022-05-11T16:44:23.380Z"}]},"timestamp":"2022-05-12T06:07:49.945Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[]}]}","timestamp":"2022-05-12T06:07:49.946Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:08:37.634Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:05:50.488Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:06:35.697Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T06:08:37.653Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T06:05:50.488Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:06:35.697Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T06:08:37.654Z"}
+{"level":"info","message":{"employeeId":"62792fd654274c81ddaceef7","projectId":"627be4758f6ac82ebc34000c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:10:04.307Z"}
+{"level":"info","message":"you already allocated this task to this project","timestamp":"2022-05-12T06:10:04.334Z"}
+{"level":"info","message":"{\"message\":\"you already allocated this task to this project\",\"level\":\"info\"}","timestamp":"2022-05-12T06:10:04.335Z"}
+{"level":"info","message":{"employeeId":"62792fd654274c81ddaceef7","projectId":"6279393754274c81ddacef3c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:11:07.434Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:06:35.697Z"}]},"timestamp":"2022-05-12T06:11:07.493Z"}
+{"level":"info","message":"{\"data\":[{\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"_id\":\"627ca3eb5559040224491619\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:06:35.697Z\",\"__v\":0}]}","timestamp":"2022-05-12T06:11:07.495Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:11:15.740Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":0,"_id":"627ca4fb555904022449161f","createdAt":"2022-05-12T06:11:07.468Z","employeeId":["62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:11:07.468Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:05:50.488Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:06:35.697Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T06:11:15.764Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627ca4fb555904022449161f\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:11:07.468Z\",\"updatedAt\":\"2022-05-12T06:11:07.468Z\",\"__v\":0}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T06:05:50.488Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:06:35.697Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T06:11:15.764Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:13:40.836Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:15:04.937Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:15:25.075Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:15:28.038Z"}
+{"code":8000,"codeName":"AtlasError","level":"error","name":"MongoError","ok":0,"timestamp":"2022-05-12T06:15:28.165Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-12T06:15:28.166Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-12T06:15:28.167Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:16:00.133Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:16:03.285Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":[["62792fd654274c81ddaceef7"]],"projectId":[["6279393754274c81ddacef3c"]],"taskDescription":["Database Design"],"taskEndDate":["07/12/2022"],"taskId":["627ca4fb555904022449161f"],"taskName":["Database Design"],"taskStartDate":["06/12/2022"]},{"_id":"627be4758f6ac82ebc34000c","employeeId":[["6278e8f129d156713c4170b6"],["6278e8f129d156713c4170b6"]],"projectId":[["627be4758f6ac82ebc34000c"],["627be4758f6ac82ebc34000c"]],"taskDescription":["Documentation","Database Design"],"taskEndDate":["07/12/2022","07/12/2022"],"taskId":["627ca3be5559040224491616","627ca3eb5559040224491619"],"taskName":["Documentation","Database Design"],"taskStartDate":["06/12/2022","06/12/2022"]}]},"timestamp":"2022-05-12T06:16:03.318Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"projectId\":[[\"6279393754274c81ddacef3c\"]],\"employeeId\":[[\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627ca4fb555904022449161f\"],\"taskName\":[\"Database Design\"],\"taskDescription\":[\"Database Design\"],\"taskStartDate\":[\"06/12/2022\"],\"taskEndDate\":[\"07/12/2022\"]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"projectId\":[[\"627be4758f6ac82ebc34000c\"],[\"627be4758f6ac82ebc34000c\"]],\"employeeId\":[[\"6278e8f129d156713c4170b6\"],[\"6278e8f129d156713c4170b6\"]],\"taskId\":[\"627ca3be5559040224491616\",\"627ca3eb5559040224491619\"],\"taskName\":[\"Documentation\",\"Database Design\"],\"taskDescription\":[\"Documentation\",\"Database Design\"],\"taskStartDate\":[\"06/12/2022\",\"06/12/2022\"],\"taskEndDate\":[\"07/12/2022\",\"07/12/2022\"]}]}","timestamp":"2022-05-12T06:16:03.320Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:16:42.403Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:16:45.830Z"}
+{"level":"info","message":{"data":[{"_id":"6279393754274c81ddacef3c","employeeId":[["62792fd654274c81ddaceef7"]],"taskDescription":["Database Design"],"taskEndDate":["07/12/2022"],"taskId":["627ca4fb555904022449161f"],"taskName":["Database Design"],"taskStartDate":["06/12/2022"]},{"_id":"627be4758f6ac82ebc34000c","employeeId":[["6278e8f129d156713c4170b6"],["6278e8f129d156713c4170b6"]],"taskDescription":["Documentation","Database Design"],"taskEndDate":["07/12/2022","07/12/2022"],"taskId":["627ca3be5559040224491616","627ca3eb5559040224491619"],"taskName":["Documentation","Database Design"],"taskStartDate":["06/12/2022","06/12/2022"]}]},"timestamp":"2022-05-12T06:16:45.928Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"employeeId\":[[\"62792fd654274c81ddaceef7\"]],\"taskId\":[\"627ca4fb555904022449161f\"],\"taskName\":[\"Database Design\"],\"taskDescription\":[\"Database Design\"],\"taskStartDate\":[\"06/12/2022\"],\"taskEndDate\":[\"07/12/2022\"]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"employeeId\":[[\"6278e8f129d156713c4170b6\"],[\"6278e8f129d156713c4170b6\"]],\"taskId\":[\"627ca3be5559040224491616\",\"627ca3eb5559040224491619\"],\"taskName\":[\"Documentation\",\"Database Design\"],\"taskDescription\":[\"Documentation\",\"Database Design\"],\"taskStartDate\":[\"06/12/2022\",\"06/12/2022\"],\"taskEndDate\":[\"07/12/2022\",\"07/12/2022\"]}]}","timestamp":"2022-05-12T06:16:45.930Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:18:18.616Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:18:25.329Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":0,"_id":"627ca4fb555904022449161f","createdAt":"2022-05-12T06:11:07.468Z","employeeId":["62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:11:07.468Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:05:50.488Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:06:35.697Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T06:18:25.368Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627ca4fb555904022449161f\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:11:07.468Z\",\"updatedAt\":\"2022-05-12T06:11:07.468Z\",\"__v\":0}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T06:05:50.488Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:06:35.697Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T06:18:25.370Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:21:23.431Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:22:04.467Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:22:38.016Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:22:42.232Z"}
+{"level":"error","timestamp":"2022-05-12T06:22:42.254Z"}
+{"level":"info","message":"Technical error while retrieving employee task","timestamp":"2022-05-12T06:22:42.255Z"}
+{"level":"info","message":"{\"message\":\"Technical error while retrieving employee task\",\"level\":\"info\"}","timestamp":"2022-05-12T06:22:42.256Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:23:01.628Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:23:05.653Z"}
+{"level":"info","message":"You don't have assign any task to anyone","timestamp":"2022-05-12T06:23:05.688Z"}
+{"level":"info","message":"{\"message\":\"You don't have assign any task to anyone\",\"level\":\"info\"}","timestamp":"2022-05-12T06:23:05.691Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:24:13.209Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T06:24:15.293Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":0,"_id":"627ca4fb555904022449161f","createdAt":"2022-05-12T06:11:07.468Z","employeeId":["62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:11:07.468Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:05:50.488Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:06:35.697Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T06:24:15.602Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627ca4fb555904022449161f\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:11:07.468Z\",\"updatedAt\":\"2022-05-12T06:11:07.468Z\",\"__v\":0}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T06:05:50.488Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:06:35.697Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T06:24:15.603Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:24:55.225Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:25:22.848Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:27:54.031Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:28:34.894Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:31:56.371Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:32:06.867Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:32:24.679Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:32:55.974Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:33:33.115Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:35:30.365Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:35:37.245Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:35:56.654Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:39:45.583Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"We are Using Oracle sql developer for Designing","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:39:51.628Z"}
+{"level":"info","message":"Data Updated Successfully","timestamp":"2022-05-12T06:39:51.707Z"}
+{"level":"info","message":"{\"message\":\"Data Updated Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:39:51.708Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:40:55.651Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:42:08.642Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","taskDescription":"We are Using Oracle sql developer for Designing","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T06:42:13.121Z"}
+{"level":"info","message":"Data Updated Successfully","timestamp":"2022-05-12T06:42:13.180Z"}
+{"level":"info","message":"{\"message\":\"Data Updated Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T06:42:13.181Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:47:08.089Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:47:35.074Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:49:34.131Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:50:02.168Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T06:50:25.627Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:28:49.394Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:28:55.356Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:29:30.049Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:30:08.761Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:32:18.023Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:32:48.469Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:33:31.758Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:34:02.771Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:35:26.302Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:35:31.672Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:36:20.153Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:36:49.060Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:37:16.769Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:37:28.039Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:37:33.090Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:43:43.091Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:43:43.256Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:43:58.940Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:43:59.045Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushilp12"},"timestamp":"2022-05-12T07:44:25.581Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:44:25.685Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushils12"},"timestamp":"2022-05-12T07:44:50.537Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:44:50.646Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:45:03.056Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:45:03.165Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:45:04.205Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:45:04.321Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:45:57.374Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:45:59.960Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:46:00.155Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:46:40.567Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:46:45.561Z"}
+{"level":"info","message":{"email":"sushil@gmail.com","password":"sushil12"},"timestamp":"2022-05-12T07:46:49.667Z"}
+{"level":"info","message":"{\"status\":\"Failure\",\"message\":\"Invalid credentials please try again.\"}","timestamp":"2022-05-12T07:46:49.838Z"}
+{"level":"info","message":{"email":"shweta@gmail.com","password":"shweta12"},"timestamp":"2022-05-12T07:51:03.721Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Employee Login Successfully.\",\"data\":{\"_id\":\"6278e8f129d156713c4170b6\",\"name\":\"Shweta Dalvi\",\"email\":\"shweta@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OGU4ZjEyOWQxNTY3MTNjNDE3MGI2In0sImlhdCI6MTY1MjM0MTg2MywiZXhwIjoxNjYwMTE3ODYzfQ.wX9_OJtaJ3CCpLC5I3nKQZcKIG4wKPRXSwfnxCSoyFw\",\"role\":\"employee\"}}","timestamp":"2022-05-12T07:51:03.855Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T07:51:46.070Z"}
+{"level":"error","timestamp":"2022-05-12T07:51:46.086Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T07:51:46.087Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T07:51:46.087Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:53:21.492Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:53:32.076Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T07:53:36.271Z"}
+{"level":"error","timestamp":"2022-05-12T07:53:36.316Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T07:53:36.317Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T07:53:36.318Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:54:59.335Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:55:14.818Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T07:55:29.942Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T07:55:30.195Z"}
+{"level":"error","timestamp":"2022-05-12T07:55:30.253Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T07:55:30.253Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T07:55:30.254Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:01:03.811Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:01:55.961Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:02:48.477Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T08:02:53.736Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T08:03:25.829Z"}
+{"level":"info","message":"You don't have any task assign","timestamp":"2022-05-12T08:03:25.852Z"}
+{"level":"info","message":"{\"message\":\"You don't have any task assign\",\"level\":\"info\"}","timestamp":"2022-05-12T08:03:25.853Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T08:03:56.391Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:05:50.488Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"We are Using Oracle sql developer for Designing","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:42:13.139Z"}]},"timestamp":"2022-05-12T08:03:56.410Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T06:05:50.488Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"We are Using Oracle sql developer for Designing\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:42:13.139Z\",\"__v\":0}]}","timestamp":"2022-05-12T08:03:56.413Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:04:58.487Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:05:00.526Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:56:56.135Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T08:56:58.548Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T08:57:03.837Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T08:57:24.663Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T08:57:57.178Z"}
+{"level":"info","message":"No token provided!","timestamp":"2022-05-12T08:57:57.179Z"}
+{"level":"info","message":"{\"message\":\"No token provided!\",\"level\":\"info\"}","timestamp":"2022-05-12T08:57:57.181Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T08:58:39.138Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T08:58:39.149Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:00:03.250Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:00:07.808Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T09:00:07.813Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:00:39.163Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:00:43.998Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T09:00:44.006Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:01:37.538Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:02:36.079Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:02:40.640Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T09:02:40.654Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:03:10.790Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:03:14.547Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T09:03:14.555Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:03:48.635Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:03:57.909Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:04:01.129Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":null}","timestamp":"2022-05-12T09:04:01.139Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:04:21.677Z"}
+{"level":"info","message":{"projectId":"627be4758f6ac82ebc34000c","status":"complete"},"timestamp":"2022-05-12T09:04:24.712Z"}
+{"level":"info","message":"Data Updated Successfully","timestamp":"2022-05-12T09:04:24.773Z"}
+{"level":"info","message":"{\"message\":\"Data Updated Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T09:04:24.774Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:05:20.735Z"}
+{"level":"info","message":{"email":"shweta@gmail.com","password":"shweta12"},"timestamp":"2022-05-12T09:09:52.654Z"}
+{"level":"info","message":"{\"status\":\"failure\",\"Message\":\"User not found.\"}","timestamp":"2022-05-12T09:09:52.687Z"}
+{"level":"info","message":{"email":"shweta@gmail.com","password":"shweta12"},"timestamp":"2022-05-12T09:10:25.271Z"}
+{"level":"info","message":"{\"status\":\"failure\",\"Message\":\"User not found.\"}","timestamp":"2022-05-12T09:10:25.284Z"}
+{"level":"info","message":{"email":"bhavana@gmail.com","password":"bhavana12"},"timestamp":"2022-05-12T09:10:59.728Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"627925b08ed84e2f789a8613\",\"name\":\"Bhavana Shinde\",\"email\":\"bhavana@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OTI1YjA4ZWQ4NGUyZjc4OWE4NjEzIn0sImlhdCI6MTY1MjM0NjY1OSwiZXhwIjoxNjYwMTIyNjU5fQ.jWVEzshy7BkG0D5hwsIfiLrW-zMedYvNbqO1uWCuFqw\",\"role\":\"manager\"}}","timestamp":"2022-05-12T09:10:59.874Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:11:15.855Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","projectEndDate":"04/20/2022","projectStartDate":"04/05/2022"},{"ProjectName":"RBL Bank","_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","projectEndDate":"06/10/2022","projectStartDate":"05/06/2022"}]},"timestamp":"2022-05-12T09:11:15.873Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\"},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\"}]}","timestamp":"2022-05-12T09:11:15.873Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:14:19.639Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":0,"_id":"627ca4fb555904022449161f","createdAt":"2022-05-12T06:11:07.468Z","employeeId":["62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:11:07.468Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"complete","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T09:04:24.727Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"We are Using Oracle sql developer for Designing","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:42:13.139Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T09:14:19.657Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627ca4fb555904022449161f\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:11:07.468Z\",\"updatedAt\":\"2022-05-12T06:11:07.468Z\",\"__v\":0}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"complete\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T09:04:24.727Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"We are Using Oracle sql developer for Designing\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:42:13.139Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T09:14:19.658Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:23:39.403Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T09:23:39.416Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T09:23:39.417Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:24:48.029Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T09:24:48.046Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T09:24:48.047Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:26:26.261Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T09:26:26.274Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T09:26:26.274Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:27:59.314Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:28:09.176Z"}
+{"level":"info","message":{"data":[{"Id":"6278e8f129d156713c4170b6","name":"Shweta Dalvi"},{"Id":"62792fd654274c81ddaceef7","name":"Sushil Shinde"},{"Id":"627ac9970e992329e42402f7","name":"Chetan Pawar"}]},"timestamp":"2022-05-12T09:28:09.218Z"}
+{"level":"info","message":"{\"data\":[{\"Id\":\"6278e8f129d156713c4170b6\",\"name\":\"Shweta Dalvi\"},{\"Id\":\"62792fd654274c81ddaceef7\",\"name\":\"Sushil Shinde\"},{\"Id\":\"627ac9970e992329e42402f7\",\"name\":\"Chetan Pawar\"}]}","timestamp":"2022-05-12T09:28:09.220Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:28:33.661Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:28:37.954Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:30:26.909Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:35:08.117Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:35:55.357Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:36:15.810Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:37:38.194Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:37:52.660Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:38:03.604Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:38:10.404Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:38:51.390Z"}
+{"level":"info","message":{"email":"priyankac@gmail.com","name":"Priyanka Chavan","password":"priyanka12"},"timestamp":"2022-05-12T09:39:46.250Z"}
+{"level":"info","message":"{\"status\":200,\"message\":\"Manager Register Successfully.\"}","timestamp":"2022-05-12T09:39:46.439Z"}
+{"level":"info","message":{"email":"nehap@gmail.com","name":"Neha Apwar","password":"neha12"},"timestamp":"2022-05-12T09:40:32.079Z"}
+{"level":"info","message":"{\"status\":200,\"message\":\"Manager Register Successfully.\"}","timestamp":"2022-05-12T09:40:32.212Z"}
+{"level":"info","message":{"email":"ashwinim@gmail.com","name":"Ashwini More","password":"ashwini12"},"timestamp":"2022-05-12T09:41:18.725Z"}
+{"level":"info","message":"{\"status\":200,\"message\":\"Manager Register Successfully.\"}","timestamp":"2022-05-12T09:41:18.866Z"}
+{"level":"info","message":{"email":"anaghap@gmail.com","name":"Anagha Pingale","password":"anagha12"},"timestamp":"2022-05-12T09:42:04.682Z"}
+{"level":"info","message":"{\"status\":200,\"message\":\"Manager Register Successfully.\"}","timestamp":"2022-05-12T09:42:05.065Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:42:42.027Z"}
+{"level":"info","message":{"ProjectName":"Winjit ESS Project","employeeId":"627cd66df4537b3a388cbb26"},"timestamp":"2022-05-12T09:43:39.318Z"}
+{"level":"info","message":"{\"success\":true,\"data\":{\"role\":\"employee\",\"_id\":\"627cd66df4537b3a388cbb26\",\"name\":\"Anagha Pingale\",\"email\":\"anaghap@gmail.com\",\"password\":\"$2a$10$dU2z1oq3C.sHZdQQv2tHzeBGgcWTAeaCJvmCGnbzgXv6an8Kl0f72\",\"__v\":0}}","timestamp":"2022-05-12T09:43:39.419Z"}
+{"level":"info","message":{"email":"anaghap@gmail.com","password":"anagha12"},"timestamp":"2022-05-12T09:44:06.747Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Employee Login Successfully.\",\"data\":{\"_id\":\"627cd66df4537b3a388cbb26\",\"name\":\"Anagha Pingale\",\"email\":\"anaghap@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3Y2Q2NmRmNDUzN2IzYTM4OGNiYjI2In0sImlhdCI6MTY1MjM0ODY0NiwiZXhwIjoxNjYwMTI0NjQ2fQ.exPynvSljh_OMOpVYfnVvEcXNiz1wO1bh2Tzafqj8C4\",\"role\":\"employee\"}}","timestamp":"2022-05-12T09:44:06.934Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:44:26.921Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:44:37.886Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:46:11.715Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:46:15.573Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:46:17.287Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T09:46:17.315Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T09:46:17.316Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:49:15.393Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:49:30.588Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:49:38.377Z"}
+{"level":"info","message":{"data":[]},"timestamp":"2022-05-12T09:49:38.405Z"}
+{"level":"info","message":"{\"data\":[]}","timestamp":"2022-05-12T09:49:38.407Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:50:26.633Z"}
+{"level":"info","message":{"data":[{"ProjectName":"Winjit ESS Project","__v":4,"_id":"627acaa6436e3e796e12da5f","createdAt":"2022-05-10T20:16:39.490Z","description":"based on nodejs","employeeId":["62792fd654274c81ddaceef7","627ac9970e992329e42402f7","627cd66df4537b3a388cbb26"],"managerId":["627ac286efb0124ce02a92f6","627ac286efb0124ce02a92f6"],"projectEndDate":"08/26/2022","projectStartDate":"06/06/2022","updatedAt":"2022-05-12T09:43:39.387Z"}]},"timestamp":"2022-05-12T09:50:26.661Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"627acaa6436e3e796e12da5f\",\"employeeId\":[\"62792fd654274c81ddaceef7\",\"627ac9970e992329e42402f7\",\"627cd66df4537b3a388cbb26\"],\"managerId\":[\"627ac286efb0124ce02a92f6\",\"627ac286efb0124ce02a92f6\"],\"ProjectName\":\"Winjit ESS Project\",\"description\":\"based on nodejs\",\"projectStartDate\":\"06/06/2022\",\"projectEndDate\":\"08/26/2022\",\"createdAt\":\"2022-05-10T20:16:39.490Z\",\"updatedAt\":\"2022-05-12T09:43:39.387Z\",\"__v\":4}]}","timestamp":"2022-05-12T09:50:26.663Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:51:02.417Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:51:56.137Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:52:09.740Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:52:31.956Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:52:48.103Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:52:56.529Z"}
+{"code":8000,"codeName":"AtlasError","level":"error","name":"MongoError","ok":0,"timestamp":"2022-05-12T09:52:56.555Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T09:52:56.556Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T09:52:56.557Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:53:16.818Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T09:53:23.070Z"}
+{"level":"info","message":{"data":[{"ProjectName":"Winjit ESS Project","_id":"627acaa6436e3e796e12da5f","description":"based on nodejs","projectEndDate":"08/26/2022","projectStartDate":"06/06/2022"}]},"timestamp":"2022-05-12T09:53:23.091Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"627acaa6436e3e796e12da5f\",\"ProjectName\":\"Winjit ESS Project\",\"description\":\"based on nodejs\",\"projectStartDate\":\"06/06/2022\",\"projectEndDate\":\"08/26/2022\"}]}","timestamp":"2022-05-12T09:53:23.092Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T09:56:09.612Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:05:52.723Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:05:56.648Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:06:52.834Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:07:33.525Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:07:55.490Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:08:06.171Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:08:22.546Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:09:06.201Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:09:07.983Z"}
+{"level":"info","message":"Employee not Found under this project","timestamp":"2022-05-12T10:09:08.034Z"}
+{"level":"info","message":"{\"message\":\"Employee not Found under this project\",\"level\":\"info\"}","timestamp":"2022-05-12T10:09:08.035Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:09:32.877Z"}
+{"level":"info","message":"Employee not Found under this project","timestamp":"2022-05-12T10:09:32.903Z"}
+{"level":"info","message":"{\"message\":\"Employee not Found under this project\",\"level\":\"info\"}","timestamp":"2022-05-12T10:09:32.904Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:10:00.925Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:10:03.931Z"}
+{"level":"info","message":"Employee not Found under this project","timestamp":"2022-05-12T10:10:04.017Z"}
+{"level":"info","message":"{\"message\":\"Employee not Found under this project\",\"level\":\"info\"}","timestamp":"2022-05-12T10:10:04.019Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:10:45.297Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:10:53.942Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:10:57.844Z"}
+{"level":"info","message":"Technical Error in getting Employee","timestamp":"2022-05-12T10:10:57.907Z"}
+{"level":"info","message":"{\"message\":\"Technical Error in getting Employee\",\"level\":\"info\"}","timestamp":"2022-05-12T10:10:57.908Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:11:40.649Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:11:46.280Z"}
+{"level":"info","message":"Technical Error in getting Employee","timestamp":"2022-05-12T10:11:46.341Z"}
+{"level":"info","message":"{\"message\":\"Technical Error in getting Employee\",\"level\":\"info\"}","timestamp":"2022-05-12T10:11:46.342Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:12:05.294Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:12:22.562Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:12:26.308Z"}
+{"level":"info","message":"Technical Error in getting Employee","timestamp":"2022-05-12T10:12:26.374Z"}
+{"level":"info","message":"{\"message\":\"Technical Error in getting Employee\",\"level\":\"info\"}","timestamp":"2022-05-12T10:12:26.375Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:12:50.079Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:12:57.315Z"}
+{"level":"info","message":"Technical Error in getting Employee","timestamp":"2022-05-12T10:12:57.369Z"}
+{"level":"info","message":"{\"message\":\"Technical Error in getting Employee\",\"level\":\"info\"}","timestamp":"2022-05-12T10:12:57.370Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:13:37.087Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:13:51.862Z"}
+{"level":"info","message":{"data":[{"Id":"6278e8f129d156713c4170b6","name":"Shweta Dalvi"},{"Id":"627ac9970e992329e42402f7","name":"Chetan Pawar"}]},"timestamp":"2022-05-12T10:13:51.931Z"}
+{"level":"info","message":"{\"data\":[{\"Id\":\"6278e8f129d156713c4170b6\",\"name\":\"Shweta Dalvi\"},{\"Id\":\"627ac9970e992329e42402f7\",\"name\":\"Chetan Pawar\"}]}","timestamp":"2022-05-12T10:13:51.932Z"}
+{"level":"info","message":{"employeeId":"627cd66df4537b3a388cbb26","projectId":"6279393754274c81ddacef3c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T10:18:34.732Z"}
+{"level":"info","message":"{\"message\":\"Validation error\",\"error\":\"\\\"employeeId\\\" is not allowed\"}","timestamp":"2022-05-12T10:18:34.742Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:19:25.499Z"}
+{"level":"info","message":{"employeeId":"627cd66df4537b3a388cbb26","projectId":"6279393754274c81ddacef3c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T10:19:30.083Z"}
+{"level":"info","message":"you already allocated this task to this project","timestamp":"2022-05-12T10:19:30.133Z"}
+{"level":"info","message":"{\"message\":\"you already allocated this task to this project\",\"level\":\"info\"}","timestamp":"2022-05-12T10:19:30.134Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:21:07.763Z"}
+{"level":"info","message":{"employeeId":"627cd66df4537b3a388cbb26","projectId":"6279393754274c81ddacef3c","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T10:22:02.194Z"}
+{"level":"info","message":"you already allocated this task to this project","timestamp":"2022-05-12T10:22:02.242Z"}
+{"level":"info","message":"{\"message\":\"you already allocated this task to this project\",\"level\":\"info\"}","timestamp":"2022-05-12T10:22:02.243Z"}
+{"level":"info","message":{"employeeId":"627cd66df4537b3a388cbb26","projectId":"6279393754274c81ddacef3c","taskDescription":"Requirement Understanding","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T10:24:02.103Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ca2d55559040224491604","createdAt":"2022-05-12T06:01:57.028Z","employeeId":[],"projectId":[],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"09/13/2022","taskName":"Requirement Understanding","taskStartDate":"09/11/2022","updatedAt":"2022-05-12T06:01:57.028Z"}]},"timestamp":"2022-05-12T10:24:02.183Z"}
+{"level":"info","message":"{\"data\":[{\"projectId\":[],\"employeeId\":[],\"status\":\"pending\",\"_id\":\"627ca2d55559040224491604\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"09/11/2022\",\"taskEndDate\":\"09/13/2022\",\"createdAt\":\"2022-05-12T06:01:57.028Z\",\"updatedAt\":\"2022-05-12T06:01:57.028Z\",\"__v\":0}]}","timestamp":"2022-05-12T10:24:02.185Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:25:34.607Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ce042a905473a5c975177","createdAt":"2022-05-12T10:24:02.137Z","employeeId":["627cd66df4537b3a388cbb26"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Requirement Understanding","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T10:24:02.137Z"}]},"timestamp":"2022-05-12T10:25:34.625Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"627ce042a905473a5c975177\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"627cd66df4537b3a388cbb26\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"Requirement Understanding\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T10:24:02.137Z\",\"updatedAt\":\"2022-05-12T10:24:02.137Z\",\"__v\":0}]}","timestamp":"2022-05-12T10:25:34.625Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:28:52.517Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:30:07.318Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:30:49.379Z"}
+{"level":"info","message":{"projectId":"6279393754274c81ddacef3c","taskDescription":"please do requirement understanding of all nodejs api","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022"},"timestamp":"2022-05-12T10:32:15.102Z"}
+{"level":"info","message":"Data Updated Successfully","timestamp":"2022-05-12T10:32:15.148Z"}
+{"level":"info","message":"{\"message\":\"Data Updated Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T10:32:15.149Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:32:49.520Z"}
+{"level":"info","message":{"data":[{"__v":0,"_id":"627ce042a905473a5c975177","createdAt":"2022-05-12T10:24:02.137Z","employeeId":["627cd66df4537b3a388cbb26"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"please do requirement understanding of all nodejs api","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T10:32:15.117Z"}]},"timestamp":"2022-05-12T10:32:49.562Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"627ce042a905473a5c975177\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"627cd66df4537b3a388cbb26\"],\"status\":\"pending\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"please do requirement understanding of all nodejs api\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T10:24:02.137Z\",\"updatedAt\":\"2022-05-12T10:32:15.117Z\",\"__v\":0}]}","timestamp":"2022-05-12T10:32:49.564Z"}
+{"level":"info","message":{"projectId":"6279393754274c81ddacef3c","status":"complete"},"timestamp":"2022-05-12T10:34:16.192Z"}
+{"level":"info","message":"Data Updated Successfully","timestamp":"2022-05-12T10:34:16.215Z"}
+{"level":"info","message":"{\"message\":\"Data Updated Successfully\",\"level\":\"info\"}","timestamp":"2022-05-12T10:34:16.216Z"}
+{"level":"info","message":{"email":"bhavana@gmail.com","password":"bhavana12"},"timestamp":"2022-05-12T10:35:20.472Z"}
+{"level":"info","message":"{\"status\":\"Success\",\"message\":\"Manager Login Successfully.\",\"data\":{\"_id\":\"627925b08ed84e2f789a8613\",\"name\":\"Bhavana Shinde\",\"email\":\"bhavana@gmail.com\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklkIjoiNjI3OTI1YjA4ZWQ4NGUyZjc4OWE4NjEzIn0sImlhdCI6MTY1MjM1MTcyMCwiZXhwIjoxNjYwMTI3NzIwfQ.4gEEP4WG6PDP25Kx8Idsdd_G9dzrgl_s1zBjdDhQ_8Q\",\"role\":\"manager\"}}","timestamp":"2022-05-12T10:35:20.654Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T10:35:40.192Z"}
+{"level":"info","message":{"data":[{"ProjectName":"LP Gas","__v":2,"_id":"6279393754274c81ddacef3c","description":"LP Gas is for angular","employeeId":["6278e8f129d156713c4170b6","627ac9970e992329e42402f7"],"managerId":["627925b08ed84e2f789a8613"],"projectEndDate":"04/20/2022","projectStartDate":"04/05/2022","record":[{"__v":0,"_id":"627ca4fb555904022449161f","createdAt":"2022-05-12T06:11:07.468Z","employeeId":["62792fd654274c81ddaceef7"],"projectId":["6279393754274c81ddacef3c"],"status":"pending","taskDescription":"Database Design","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:11:07.468Z"},{"__v":0,"_id":"627ce042a905473a5c975177","createdAt":"2022-05-12T10:24:02.137Z","employeeId":["627cd66df4537b3a388cbb26"],"projectId":["6279393754274c81ddacef3c"],"status":"complete","taskDescription":"please do requirement understanding of all nodejs api","taskEndDate":"07/12/2022","taskName":"Requirement Understanding","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T10:34:16.198Z"}],"updatedAt":"2022-05-11T16:44:23.380Z"},{"ProjectName":"RBL Bank","__v":5,"_id":"627be4758f6ac82ebc34000c","description":"RBL Bank is in nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["627925b08ed84e2f789a8613","627c9a240607942a208af0b6"],"projectEndDate":"06/10/2022","projectStartDate":"05/06/2022","record":[{"__v":0,"_id":"627ca3be5559040224491616","createdAt":"2022-05-12T06:05:50.488Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"complete","taskDescription":"Documentation","taskEndDate":"07/12/2022","taskName":"Documentation","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T09:04:24.727Z"},{"__v":0,"_id":"627ca3eb5559040224491619","createdAt":"2022-05-12T06:06:35.697Z","employeeId":["6278e8f129d156713c4170b6"],"projectId":["627be4758f6ac82ebc34000c"],"status":"pending","taskDescription":"We are Using Oracle sql developer for Designing","taskEndDate":"07/12/2022","taskName":"Database Design","taskStartDate":"06/12/2022","updatedAt":"2022-05-12T06:42:13.139Z"}],"updatedAt":"2022-05-12T05:27:32.071Z"}]},"timestamp":"2022-05-12T10:35:40.207Z"}
+{"level":"info","message":"{\"data\":[{\"_id\":\"6279393754274c81ddacef3c\",\"ProjectName\":\"LP Gas\",\"description\":\"LP Gas is for angular\",\"projectStartDate\":\"04/05/2022\",\"projectEndDate\":\"04/20/2022\",\"employeeId\":[\"6278e8f129d156713c4170b6\",\"627ac9970e992329e42402f7\"],\"managerId\":[\"627925b08ed84e2f789a8613\"],\"__v\":2,\"updatedAt\":\"2022-05-11T16:44:23.380Z\",\"record\":[{\"_id\":\"627ca4fb555904022449161f\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"Database Design\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:11:07.468Z\",\"updatedAt\":\"2022-05-12T06:11:07.468Z\",\"__v\":0},{\"_id\":\"627ce042a905473a5c975177\",\"projectId\":[\"6279393754274c81ddacef3c\"],\"employeeId\":[\"627cd66df4537b3a388cbb26\"],\"status\":\"complete\",\"taskName\":\"Requirement Understanding\",\"taskDescription\":\"please do requirement understanding of all nodejs api\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T10:24:02.137Z\",\"updatedAt\":\"2022-05-12T10:34:16.198Z\",\"__v\":0}]},{\"_id\":\"627be4758f6ac82ebc34000c\",\"ProjectName\":\"RBL Bank\",\"description\":\"RBL Bank is in nodejs\",\"projectStartDate\":\"05/06/2022\",\"projectEndDate\":\"06/10/2022\",\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"627925b08ed84e2f789a8613\",\"627c9a240607942a208af0b6\"],\"__v\":5,\"updatedAt\":\"2022-05-12T05:27:32.071Z\",\"record\":[{\"_id\":\"627ca3be5559040224491616\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"complete\",\"taskName\":\"Documentation\",\"taskDescription\":\"Documentation\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:05:50.488Z\",\"updatedAt\":\"2022-05-12T09:04:24.727Z\",\"__v\":0},{\"_id\":\"627ca3eb5559040224491619\",\"projectId\":[\"627be4758f6ac82ebc34000c\"],\"employeeId\":[\"6278e8f129d156713c4170b6\"],\"status\":\"pending\",\"taskName\":\"Database Design\",\"taskDescription\":\"We are Using Oracle sql developer for Designing\",\"taskStartDate\":\"06/12/2022\",\"taskEndDate\":\"07/12/2022\",\"createdAt\":\"2022-05-12T06:06:35.697Z\",\"updatedAt\":\"2022-05-12T06:42:13.139Z\",\"__v\":0}]}]}","timestamp":"2022-05-12T10:35:40.207Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:52:23.173Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:52:56.064Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:54:56.624Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:55:15.365Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:55:24.326Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:56:03.396Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T10:59:33.361Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:01:38.837Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:01:48.830Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:02:23.731Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:03:57.867Z"}
+{"level":"info","message":"No token provided!","timestamp":"2022-05-12T11:03:57.868Z"}
+{"level":"info","message":"{\"message\":\"No token provided!\",\"level\":\"info\"}","timestamp":"2022-05-12T11:03:57.870Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:04:27.357Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:04:31.322Z"}
+{"level":"info","message":{"data":{"ProjectName":"DCC","__v":2,"_id":"627a051554274c81ddacefbb","description":"DCC is based on nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["6278e015c2612783f473d103","627ac286efb0124ce02a92f6"],"projectEndDate":"06/22/2022","projectStartDate":"05/22/2022","updatedAt":"2022-05-11T06:50:58.018Z"}},"timestamp":"2022-05-12T11:04:31.354Z"}
+{"level":"info","message":"{\"data\":{\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"6278e015c2612783f473d103\",\"627ac286efb0124ce02a92f6\"],\"_id\":\"627a051554274c81ddacefbb\",\"ProjectName\":\"DCC\",\"description\":\"DCC is based on nodejs\",\"projectStartDate\":\"05/22/2022\",\"projectEndDate\":\"06/22/2022\",\"__v\":2,\"updatedAt\":\"2022-05-11T06:50:58.018Z\"}}","timestamp":"2022-05-12T11:04:31.357Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:05:10.353Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:05:22.571Z"}
+{"level":"info","message":{"data":{"ProjectName":"DCC","__v":2,"_id":"627a051554274c81ddacefbb","description":"DCC is based on nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["6278e015c2612783f473d103","627ac286efb0124ce02a92f6"],"projectEndDate":"06/22/2022","projectStartDate":"05/22/2022","updatedAt":"2022-05-11T06:50:58.018Z"}},"timestamp":"2022-05-12T11:05:22.606Z"}
+{"level":"info","message":"{\"data\":{\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"6278e015c2612783f473d103\",\"627ac286efb0124ce02a92f6\"],\"_id\":\"627a051554274c81ddacefbb\",\"ProjectName\":\"DCC\",\"description\":\"DCC is based on nodejs\",\"projectStartDate\":\"05/22/2022\",\"projectEndDate\":\"06/22/2022\",\"__v\":2,\"updatedAt\":\"2022-05-11T06:50:58.018Z\"}}","timestamp":"2022-05-12T11:05:22.608Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:07:13.228Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:07:19.799Z"}
+{"level":"info","message":{"data":{"ProjectName":"DCC","__v":2,"_id":"627a051554274c81ddacefbb","description":"DCC is based on nodejs","employeeId":["62792fd654274c81ddaceef7"],"managerId":["6278e015c2612783f473d103","627ac286efb0124ce02a92f6"],"projectEndDate":"06/22/2022","projectStartDate":"05/22/2022","updatedAt":"2022-05-11T06:50:58.018Z"}},"timestamp":"2022-05-12T11:07:19.835Z"}
+{"level":"info","message":"{\"data\":{\"employeeId\":[\"62792fd654274c81ddaceef7\"],\"managerId\":[\"6278e015c2612783f473d103\",\"627ac286efb0124ce02a92f6\"],\"_id\":\"627a051554274c81ddacefbb\",\"ProjectName\":\"DCC\",\"description\":\"DCC is based on nodejs\",\"projectStartDate\":\"05/22/2022\",\"projectEndDate\":\"06/22/2022\",\"__v\":2,\"updatedAt\":\"2022-05-11T06:50:58.018Z\"}}","timestamp":"2022-05-12T11:07:19.837Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:09:36.502Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:09:45.811Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:09:49.487Z"}
+{"level":"error","timestamp":"2022-05-12T11:09:49.488Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T11:09:49.489Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T11:09:49.490Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:10:21.369Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:10:26.428Z"}
+{"level":"error","timestamp":"2022-05-12T11:10:26.437Z"}
+{"level":"info","message":{"mesage":"Technical Error In Getting Project"},"timestamp":"2022-05-12T11:10:26.438Z"}
+{"level":"info","message":"{\"mesage\":\"Technical Error In Getting Project\"}","timestamp":"2022-05-12T11:10:26.440Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:10:48.863Z"}
+{"level":"info","message":{},"timestamp":"2022-05-12T11:10:52.294Z"}
+{"level":"info","message":{"data":{"ProjectDescription":"DCC is based on nodejs","ProjectName":"DCC","projectEndDate":"06/22/2022","projectStartDate":"05/22/2022"}},"timestamp":"2022-05-12T11:10:52.336Z"}
+{"level":"info","message":"{\"data\":{\"ProjectName\":\"DCC\",\"ProjectDescription\":\"DCC is based on nodejs\",\"projectStartDate\":\"05/22/2022\",\"projectEndDate\":\"06/22/2022\"}}","timestamp":"2022-05-12T11:10:52.338Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:11:12.513Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:13:54.533Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:15:27.147Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:16:24.099Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:16:27.060Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:16:58.761Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:18:36.536Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:19:23.224Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:19:48.792Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:20:00.991Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:21:24.820Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:21:54.841Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:22:07.964Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:22:19.661Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:22:58.024Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:23:10.467Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:24:13.373Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:24:44.150Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:24:57.336Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:27:01.131Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:27:53.505Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:28:00.849Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:28:48.786Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:29:00.048Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:29:12.441Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:29:22.425Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:30:02.081Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:30:37.558Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:31:07.712Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:31:23.086Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:31:38.290Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:32:01.212Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:37:23.790Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:38:41.471Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:39:09.344Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:39:29.468Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:39:57.021Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:40:16.975Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:40:34.009Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:41:02.710Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:41:23.140Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:41:50.479Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:42:39.277Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:42:54.819Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:43:26.551Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:43:38.436Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:44:03.245Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:44:26.865Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:45:06.581Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:46:02.464Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:46:56.403Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:47:03.301Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:47:18.317Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:47:31.217Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:47:39.997Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:47:55.035Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:48:12.076Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:48:29.414Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:48:44.098Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:49:40.193Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:49:49.199Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:51:15.920Z"}
+{"level":"error","message":{},"timestamp":"2022-05-12T11:51:51.042Z"}

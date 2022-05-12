@@ -71,9 +71,27 @@ const ValidationEmployeeRegister = (reqBody) => {
         return { error: true, data: null }
     }
 }
+const validateUpdateTaskByEmployee = (reqBody)=>{
+    try {
+        const UpdateStatusSchema = Joi.object().keys({
+            projectId: Joi.string().min(1).max(30).required(),
+            status: Joi.string().valid('incomplete','pending','complete','inprogress').required()
+        })
+        const result = UpdateStatusSchema.validate(reqBody)
+        if (result.error) {
+            return { error: true, data: result.error.details[0].message }
+        }
+        return { error: false, data: null }
+    }
+    catch (error) {
+        console.log(error)
+        return { error: true, data: null }
+    }
+}
 module.exports = {
     validationEmployeeLogin,
     ValidateEmployeeProjectByManager,
     validateEmployeeStatus,
-    ValidationEmployeeRegister
+    ValidationEmployeeRegister,
+    validateUpdateTaskByEmployee
 }

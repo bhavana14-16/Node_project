@@ -1,7 +1,6 @@
 const { validationEmployeeLogin, ValidateEmployeeProjectByManager, validateEmployeeStatus, ValidationEmployeeRegister } = require('../../validation/validateEmployee')
 const { ValidationTask, validateUpdateTaskByEmployee } = require('../../validation/validateProject')
 const Employee = require('../../../database/models/employeeModel')
-const TaskSchema = require('../../../database/models/taskModel')
 const project = require('../../../database/models/projectModel')
 const CustomErrorHandler = require('../../services/CustomErrorHandler');
 const jwt = require('jsonwebtoken')
@@ -21,6 +20,20 @@ const getAllEmployee = async (req, res) => {
     catch (error) {
         logger.error(error)
         return res.status(500).send({ message: 'Technical error occurs while inserting employeee' })
+    }
+}
+const getEmployeeByProject = async (req, res) => {
+    try {
+        const data = await Project.findById(req.params.id).populate('employeeId');
+        if (data.employeeId && data.employeeId.length) {
+            const employee = data.employeeId.map(item => ({ Id: item._id, name: item.name }));
+            return res.status(200).send({ data: employee })
+        }
+        return res.status(404).send({ message : 'Employee not Found under this project'})
+    }
+    catch (error) {
+        console.log(error)
+        return res.status(500).send({ message: 'Technical Error in getting Employee' });
     }
 }
 const employeeRegister = async (req, res, next) => {
@@ -67,6 +80,7 @@ const employeeLogin = async (req, res, next) => {
             return next(CustomErrorHandler.error(500, 'User not found.'));
         }
         const match = await bcrypt.compare(password, employee.password);
+        console.log(match)
         if (match) {
             const { _id, name, email } = employee;
             const payload = {
@@ -97,7 +111,6 @@ const employeeLogin = async (req, res, next) => {
 }
 const getProjectByEmployeeId = async (req, res) => {
     try {
-        console.log(req.employeeId)
         const data = await Project.aggregate([
             {
                 $match: {
@@ -105,26 +118,18 @@ const getProjectByEmployeeId = async (req, res) => {
                 },
             },
             {
-                $lookup: {
-                    from: 'project',
-                    localField: 'employeeId',
-                    foreignField: '_id',
-                    as: 'record'
-                }
-            },
-            {
                 $project: {
                     ProjectName: "$ProjectName",
                     description: "$description",
-                    projectstartDate: "$projectStartDate",
-                    projectendDate: "$projectEndDate"
+                    projectStartDate: "$projectStartDate",
+                    projectEndDate: "$projectEndDate"
                 }
             }
         ])
-        if (!data && !data.length) {
-            return res.status(404).send({ message: 'Data Not Found' })
+        if (data && data.length) {
+            return res.status(200).send({ data: data })
         }
-        return res.status(200).send({ data: data })
+        return res.status(404).send({ message: 'Data Not Found' })
     }
     catch (error) {
         console.log(error)
@@ -135,96 +140,103 @@ const getProjectByEmployeeId = async (req, res) => {
 const getProjecttoEmployeee = async (req, res) => {
     try {
         const data = await project.findById(req.params.id).exec();
-        if (!data) {
+        if (!Object.keys(data).length) {
             return res.status(404).send({ mesage: "Data Not Found" })
         }
-        return res.status(200).send({ data: data })
+        const project_obj = {
+            ProjectName : data.ProjectName,
+            ProjectDescription: data.description,
+            projectStartDate: data.projectStartDate,
+            projectEndDate: data.projectEndDate
+        }
+        return res.status(200).send({ data: project_obj })
     }
     catch (error) {
+        console.log(error)
         logger.error(error)
         return res.status(500).send({ mesage: "Technical Error In Getting Project" })
     }
 }
-const addEmployeeStatus = async (req, res) => {
-    try {
-        const valid_status = validateEmployeeStatus(req.body)
-        if (valid_status.error) {
-            return res.status(502).json({ message: validate_email.data })
-        }
-        const data = await projectemployee.findOne({ managerId: req.body.managerId, employeeId: req.employeeId, taskId: req.body.taskId, projectId: req.body.projectId })
-        console.log(data)
-        if (!data) {
-            return res.status(404).send({ message: 'Record Not Found' })
-        }
-        data.status.push(req.body.status);
-        console.log(data)
-        await data.save();
-        return res.status(200).send({ message: 'status moved successfully' })
-    }
-    catch (error) {
-        logger.error(error)
-        console.log(error)
-        return res.status(500).send({ message: 'Technical error while Adding Status' })
-    }
-}
-const getStatus = (data) => {
-    try {
-        let data2 = [];
-        data.forEach(element => {
-            const res1 = element.status;
-            const counts = {};
-            res1.forEach((x) => {
-                counts[x] = (counts[x] || 0) + 1;
-            });
-            data1 = {
-                Id: element._id,
-                name: element.name,
-                status: counts
-            }
-            data2.push(data1);
-        });
-        return data2;
-    }
-    catch (error) {
-        logger.error(error)
-        return res.status(500).send({ message: 'Tecnical error in getting status' })
-    }
-}
-const getEmployeeStatusByManagerId = async (req, res) => {
-    try {
-        const data = await projectemployee.aggregate([
-            {
-                $match: {
-                    managerId: mongoose.Types.ObjectId(req.managerId)
-                }
-            },
-            {
-                $lookup: {
-                    from: 'employee',
-                    localField: 'employeeId',
-                    foreignField: '_id',
-                    as: 'record'
-                }
-            },
-            {
-                $project: {
-                    name: "$record.name",
-                    status: "$status"
-                }
-            }
-        ])
-        const result = getStatus(data)
-        if (!result && !result.length) {
-            res.status(404).send({ message: 'Data Not Found' })
-        }
-        res.status(200).send({ data: result })
-    }
-    catch (error) {
-        logger.error(error)
-        console.log(error)
-        return res.status(500).send({ message: 'Error In getting Employee Status' })
-    }
-}
+// const addEmployeeStatus = async (req, res) => {
+//     try {
+//         const valid_status = validateEmployeeStatus(req.body)
+//         if (valid_status.error) {
+//             return res.status(502).json({ message: validate_email.data })
+//         }
+//         const data = await projectemployee.findOne({ managerId: req.body.managerId, employeeId: req.employeeId, taskId: req.body.taskId, projectId: req.body.projectId })
+//         console.log(data)
+//         if (!data) {
+//             return res.status(404).send({ message: 'Record Not Found' })
+//         }
+//         data.status.push(req.body.status);
+//         console.log(data)
+//         await data.save();
+//         return res.status(200).send({ message: 'status moved successfully' })
+//     }
+//     catch (error) {
+//         logger.error(error)
+//         console.log(error)
+//         return res.status(500).send({ message: 'Technical error while Adding Status' })
+//     }
+// }
+// const getStatus = (data) => {
+//     try {
+//         let data2 = [];
+//         data.forEach(element => {
+//             const res1 = element.status;
+//             const counts = {};
+//             res1.forEach((x) => {
+//                 counts[x] = (counts[x] || 0) + 1;
+//             });
+//             data1 = {
+//                 Id: element._id,
+//                 name: element.name,
+//                 status: counts
+//             }
+//             data2.push(data1);
+//         });
+//         return data2;
+//     }
+//     catch (error) {
+//         logger.error(error)
+//         return res.status(500).send({ message: 'Tecnical error in getting status' })
+//     }
+// }
+// const getEmployeeStatusByManagerId = async (req, res) => {
+//     try {
+//         const data = await projectemployee.aggregate([
+//             {
+//                 $match: {
+//                     managerId: mongoose.Types.ObjectId(req.managerId)
+//                 }
+//             },
+//             {
+//                 $lookup: {
+//                     from: 'employee',
+//                     localField: 'employeeId',
+//                     foreignField: '_id',
+//                     as: 'record'
+//                 }
+//             },
+//             {
+//                 $project: {
+//                     name: "$record.name",
+//                     status: "$status"
+//                 }
+//             }
+//         ])
+//         const result = getStatus(data)
+//         if (!result && !result.length) {
+//             res.status(404).send({ message: 'Data Not Found' })
+//         }
+//         res.status(200).send({ data: result })
+//     }
+//     catch (error) {
+//         logger.error(error)
+//         console.log(error)
+//         return res.status(500).send({ message: 'Error In getting Employee Status' })
+//     }
+// }
 module.exports = {
     employeeLogin,
     //  addEmployeeProject,
@@ -232,7 +244,8 @@ module.exports = {
     getProjectByEmployeeId,
     getProjecttoEmployeee,
     getAllEmployee,
-    addEmployeeStatus,
-    getEmployeeStatusByManagerId,
-    employeeRegister
+    //addEmployeeStatus,
+   // getEmployeeStatusByManagerId,
+    employeeRegister,
+    getEmployeeByProject
 } 

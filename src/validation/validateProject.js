@@ -1,4 +1,22 @@
 const Joi = require('joi')
+const validateAddProject = (reqBody) => {
+    try {
+        ProjectSchema = Joi.object().keys({
+            ProjectName: Joi.string().required(),
+            description: Joi.string().required(),
+            projectStartDate: Joi.date().required(),
+            projectEndDate: Joi.date().greater(Joi.ref('projectStartDate')).required(),
+        })
+        const result = ProjectSchema.validate(reqBody)
+        if (result.error) {
+            return { error: true, data: result.error.details[0].message }
+        }
+        return { error: false, data: true }
+    }
+    catch (error) {
+        return { error: true, data: 'Technical Error in validation' }
+    }
+}
 const ValidateProject = (reqBody) => {
     try {
         Schema = Joi.object().keys({
@@ -6,9 +24,7 @@ const ValidateProject = (reqBody) => {
             employeeId: Joi.string().min(1).required()
         })
         const result = Schema.validate(reqBody)
-        console.log('result', result)
         if (result.error) {
-            console.log('result.error', result.error)
             return { error: true, data: result.error.details[0].message }
         }
         return { error: false, data: true }
@@ -63,6 +79,7 @@ const ValidationTask = (reqBody) => {
             taskEndDate: Joi.date().greater(Joi.ref('taskStartDate')).required(),
             taskName: Joi.string().required(),
             taskDescription: Joi.string().min(1).max(200).required(),
+            employeeId: Joi.string().min(1).max(30).required()
         })
         const result = TaskSchema.validate(reqBody)
         if (result.error) {
@@ -74,7 +91,7 @@ const ValidationTask = (reqBody) => {
         return { error: true, data: 'Technical Error in validation' }
     }
 }
-const validateUpdateTaskByManager = (reqBody)=>{
+const validateUpdateTaskByManager = (reqBody) => {
     try {
         TaskSchema = Joi.object().keys({
             projectId: Joi.string().min(1).max(30).required(),
@@ -95,7 +112,7 @@ const validateUpdateTaskByManager = (reqBody)=>{
         return { error: true, data: 'Technical Error in validation' }
     }
 }
-const validateProjectByMangerId = (reqBody)=>{
+const validateProjectByMangerId = (reqBody) => {
     try {
         Schema = Joi.object().keys({
             ProjectName: Joi.string().required(),
@@ -114,11 +131,69 @@ const validateProjectByMangerId = (reqBody)=>{
         return { error: true, data: 'Technical Error in validation' }
     }
 }
+const validateManagerByLogin = async (reqBody) => {
+    try {
+        ManagerLoginSchema = Joi.object().keys({
+            email: Joi.string().email().min(1).required(),
+            password: Joi.string().min(1).max(10).required()
+        })
+        const result = ManagerLoginSchema.validate(reqBody)
+        if (result.error) {
+            return { error: true, data: result.error.details[0].message }
+        }
+        return { error: false, data: true }
+    }
+    catch (error) {
+        console.log(error)
+        return { error: true, data: 'Technical Error in validation' }
+    }
+}
+const validateManagerByRegister = async (reqBody) => {
+    try {
+        ManagerRegisterSchema = Joi.object().keys({
+            name: Joi.string().min(1).max(30).required(),
+            email: Joi.string().email().min(1).required(),
+            password: Joi.string().min(1).max(10).required()
+        })
+        const result = ManagerLoginSchema.validate(reqBody)
+        if (result.error) {
+            return { error: true, data: result.error.details[0].message }
+        }
+        return { error: false, data: true }
+    }
+    catch (error) {
+        console.log(error)
+        return { error: true, data: 'Technical Error in validation' }
+    }
+}
+const validateAddTask = (reqBody)=>{
+    try {
+        TaskSchema = Joi.object().keys({
+            taskDescription: Joi.string().required(),
+            taskStartDate: Joi.date().required(),
+            taskEndDate: Joi.date().greater(Joi.ref('taskStartDate')).required(),
+            taskName: Joi.string().min(1).required(),
+        })
+        const result = TaskSchema.validate(reqBody)
+        if (result.error) {
+            return { error: true, data: result.error.details[0].message }
+        }
+        return { error: false, data: true }
+    }
+    catch (error) {
+        console.log(error)
+        return { error: true, data: 'Technical Error in validation' }
+    }
+}
 module.exports = {
     ValidateProject,
     ValidationTask,
     validateUpdatedProject,
     validateUpdateTaskByEmployee,
     validateUpdateTaskByManager,
-    validateProjectByMangerId
+    validateProjectByMangerId,
+    validateManagerByLogin,
+    validateManagerByRegister,
+    validateAddProject,
+    validateAddTask
 }

@@ -3,7 +3,7 @@ const app = express();
 const session = require('express-session')
 const cookieParser = require('cookie-parser')
 const { APP_PORT, DB_URL } = require('./configg/index');
-const logger = require('../Node_project/src/middleware/logger')
+const logger = require('../NodeJs_latest1/src/middleware/logger')
 const managerRoutes = require('./src/routes/managerRoutes');
 const employeeRoutes = require('./src/routes/employeeroute')
 

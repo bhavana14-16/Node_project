@@ -1,13 +1,19 @@
-const Joi = require('joi');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const managerModel = require('../../../database/models/managerModel');
 const CustomErrorHandler = require('../../services/CustomErrorHandler');
-
+const { validateManagerByRegister, validateManagerByLogin } = require('../../validation/validateProject')
 const authControllers = {
 
     async login(req, res, next) {
         try {
+            const vaidate_manager = validateManagerByLogin(req.body)
+            if (vaidate_manager.error) {
+                return res.status(402).json({
+                    message: 'Validation error',
+                    error: vaidate_manager.data
+                })
+            }
             const { email, password } = req.body;
             const manager = await managerModel.findOne({ email });
             if (!manager) {
@@ -47,8 +53,14 @@ const authControllers = {
 
 
     async register(req, res, next) {
-
         try {
+            const val_manager = validateManagerByRegister(req.body);
+            if (val_manager.error) {
+                return res.status(402).json({
+                    message: 'Validation error',
+                    error: val_manager.data
+                })
+            }
             const hashedPassword = await bcrypt.hash(req.body.password, 10);
             const { name, email, role, businessUnit } = req.body;
             const manager = await managerModel.findOne({ email }).select('-createdAt -updatedAt -__v');
